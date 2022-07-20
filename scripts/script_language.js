@@ -35,7 +35,7 @@
             //Inside Menu
             $(".menu_dropdown").children().eq(0).text("Projects");
                 //Inside Menu
-                $(".insideP").children().eq(0).children(0).text("Aprend");
+                $(".insideP").children().eq(0).children(0).text("Technologies");
                 $(".insideP").children().eq(1).children(0).text("Works");
                 $(".insideP").children().eq(2).children(0).text("What If...?");
                 $(".insideP").children().eq(3).children(0).text("Blog");
