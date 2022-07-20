@@ -1,0 +1,503 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*---- COLORS -----*/
+
+    body[data-theme="t-light"] {
+        --color-1: #ffffff;
+        --color-2: #000000;
+        --color-3: #452e3c;
+        --color-4: #ff3d5a;
+        --color-5: #ffb969;
+        --color-6: #eaf27e;
+        --color-7: #3b8c88;
+        --color-8: #e0e0e0;
+        --color-9: #181818;
+    }
+
+    body[data-theme="t-dark"] {
+        --color-1: #000000;
+        --color-2: #ffffff;
+        --color-3: #22171e;
+        --color-4: #771b29;
+        --color-5: #6e512f;
+        --color-6: #787c43;
+        --color-7: #1f4d4a;
+        --color-8: #181818;
+        --color-9: #e0e0e0;
+    }
+
+/*---- FIM COLORS -----*/
+/*---- SECTIONS ----*/
+
+    body {
+        overflow-x: hidden;
+        font-family: 'Roboto', Arial, sans-serif;
+    }
+    .section {
+        height: 100vh;
+        width: 100vw;
+    }
+
+/*---- SCROLL -----*/
+
+    body::-webkit-scrollbar {
+        width: 12px;               
+    }
+
+    body::-webkit-scrollbar-track {
+        background-color: var(--color-8); 
+    }
+
+    body::-webkit-scrollbar-thumb {
+        background-color: var(--color-2);
+        border-radius: 20px;
+        border: 3px solid var(--color-8); 
+    }
+
+/*---- FIM SCROLL -----*/
+/* ---- MENU NAV ---- */
+    .menu {
+        position: fixed;
+        height: 40px;
+        width: 800px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        top: 10px;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: 2;
+        background-color: var(--color-8);
+    }
+
+    .menu > img {
+        height: 30px;
+        margin-left: 20px;
+    }
+
+    .menu_itens {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 73%;
+        height: 100%;
+    }
+        .menu_item {
+            padding: 10px;
+            text-transform: uppercase;
+            font-weight: bold;
+            display: block;
+            color: var(--color-2);
+            transition: all .5s;
+        }
+
+        .menu_dropdown {
+            position: relative;
+        }
+        
+        .menu_dropdown:hover .insideP {
+            display: flex;
+        }
+            .insideP {
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                transform: translate(-50%);
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                width: 200px;
+                height: 190px;
+                background-color:var(--color-1);
+                border-radius: 0 0 10px 10px;
+                display: none;
+            }
+                .insideItem {
+                    background-color: var(--color-8);
+                    border-radius: 50px;
+                    padding: 10px;
+                    margin: 3px;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    display: block;
+                    color: var(--color-2);
+                    width: 180px;
+                    transition: all .5s;
+                }
+
+        .insideItem:hover, .menu_item:hover{
+            transform: scale(1.09);
+        }
+        a:visited {
+            color: var(--color-2);
+        }
+
+    /* -- TRIGGER THEME -- */
+        
+        .swith {
+            display: block;
+            width: 60px;
+            height: 34px;
+            cursor: pointer;
+            margin-right: 20px;
+        }
+        .checkbox {
+            display: none;
+        }
+        .switch-wrapper {
+            width: 60px;
+            height: 34px;
+            position: relative;
+        }
+        .swith-b {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 40px;
+            background-color: var(--color-2);
+            background-image: url("/my_portfolio/assets/imgs/moon.svg");
+            background-size: 20px;
+            background-repeat: no-repeat;
+            background-position: 34px;
+            transition: .4s all ease;
+        }         
+            input:checked + .swith-b {
+                background-image: url("/my_portfolio/assets/imgs/sun.svg");
+                background-position: 7px;
+            }
+        .swith-b::after {
+            content: "";
+            width: 26px;
+            height: 26px;
+            background-color: var(--color-1);
+            position: absolute;
+            left: 4px;
+            bottom: 4px;
+            border-radius: 50%;
+            background-image: url("/my_portfolio/assets/imgs/sun.svg");
+            background-repeat: no-repeat;
+            transition: .4s all ease;
+        }
+            input:checked + .swith-b::after {
+                transform: translate(26px);
+                background-image: url("/my_portfolio/assets/imgs/moon.svg");
+                background-position: 3px;
+                background-size: 20px;
+            }
+    /* -- FIM TRIGGER THEME -- */
+    /*-- LANGUAGE BOX --*/
+        .box-languages {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 65px;
+            height: 100%;
+
+        }
+            .option-language {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 25px;
+                margin: 3px;
+                filter: grayscale(1);
+                transition: all .5s;
+                cursor: pointer;
+            }
+        .language-active {
+            width: 33px;
+            filter: grayscale(0);
+            cursor: default;
+        }
+
+    /*-- FIM LANGUAGE BOX --*/
+/* ---- FIM MENU NAV ---- */
+/*---- SECTION 1 ---- */
+    /*---- LEFT SIDE ----*/
+        .section:nth-child(1) {
+            display: flex;
+        }
+
+        .aside {
+            height: 100vh;
+            width: 55vw;
+            background-image: url("assets/imgs/wallpaper2.png");
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            position: relative;
+            transition: all 2s;
+        }
+        
+        .box_aside {
+            height: 100vh;
+            margin-right: 3vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .box_aside > img {
+                height: 200px;
+                border-radius: 50%;
+                margin-bottom: 30px;
+                margin-top: 50px;
+            }
+
+        .text_sec1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .text_sec1 > p {
+            background-color: var(--color-8);
+            color: var(--color-2);
+            display: block;
+            padding: 3px 5px;
+            font-size: 1.5em;
+            width: 250px;
+            margin-top: -10px;
+        }
+
+    /*---- FIM LEFT SIDE ----*/
+    /*---- RIGHT SIDE ----*/
+        .right-side-sec1 {
+            background-color: var(--color-1);
+            height: 100%;
+            width: 45vw;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content_sec1 {
+            display: flex;
+            z-index: 1;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: var(--color-2);
+        }
+
+        .content_sec1 h1 {
+            font-size: 20em;
+            margin-bottom: -70px;
+        }
+
+        .content_sec1 h2 {
+            font-size: 4em;
+        }
+
+        .content_sec1 h3 {
+            font-size: 2.7em;
+        }
+
+        /*---- ANIMATION BACKGROUND ----*/
+
+            .animateBackground {
+                position: absolute;
+                z-index: 1;
+                height: 100%;
+                width: 100%;
+                overflow: hidden;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                animation: animaColor 5s infinite;
+            }
+            
+                @keyframes animaColor {
+                    0% {
+                        filter: hue-rotate(0deg);
+                    }
+            
+                    100% {
+                        filter: hue-rotate(360deg);
+                    }
+                }
+            
+            .animateBackground span {
+                position: relative;
+                display: block;
+                width: 40px;
+                height: 40px;
+            }
+            
+            .animateBackground span::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0%;
+                width: 200%;
+                height: 200%;
+                background-color: #00ff0a;
+                box-shadow: 
+                    0 0 10px #00ff0a,
+                    0 0 20px #00ff0a,
+                    0 0 40px #00ff0a,
+                    0 0 60px #00ff0a,
+                    0 0 80px #00ff0a
+                ;
+                border-radius: 50%;
+                transition: all 2s;
+                transform: scale(0);
+            }
+
+            .animateBackground span:hover::before {
+                transition: all 0s;
+                transform: scale(1);
+            }
+            
+        /*---- FIM ANIMATION BACKGROUND ----*/
+    /*---- FIM RIGHT SIDE ----*/
+/*---- FIM SECTION 1 ---- */
+/*---- SECTION 2 ---- */
+    #sec2 {
+        background: linear-gradient(-45deg, var(--color-5), var(--color-4), var(--color-6), var(--color-7)) no-repeat;
+        background-size: 1000% 1000%;
+        animation: gradient 10s ease alternate infinite;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--color-2);
+    }
+        @keyframes gradient {
+            from {
+                background-position: 0 50%;
+            }
+
+            to {
+                background-position: 100% 50%;
+            }
+        }
+
+    .card-sec2 {
+        height: 80%;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .card-content-sec2 {
+        height: 80%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        border-left: 5px solid var(--color-2);
+        padding-left: 10px;
+        font-weight: bolder;
+    }
+
+    .card-content-sec2 > h2 {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+/*---- FIM SECTION 2 ---- */
+/*---- SECTION 3 ---- */
+
+    #sec3 {
+        background-color: var(--color-1);
+        color: var(--color-9);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cards {
+        background-color: var(--color-8);
+        height: 80%;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 20px;
+    }
+
+    .card {
+        height: 80%;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-right: 5px solid var(--color-1);
+    }
+
+        .card:last-child {
+            border: none;
+        }
+
+        .card img {
+            height: 100px;
+            margin-bottom: 20px;
+        }
+        
+        .card h2{
+            margin-bottom: 10px;
+        }
+
+        .card p{
+            margin-bottom: 5px;
+            font-weight: bolder;
+        }
+    
+    .content-coming::after {
+        content: "";
+        animation: contentAni 2s ease alternate infinite;
+    }
+        @keyframes contentAni {
+
+            0% {
+                content: "";
+            }
+
+            25% {
+                content: ".";
+
+            }
+
+            50% {
+                content: "..";
+
+            }
+
+            100% {
+                content: "...";
+
+            }
+            
+        }
+
+/*---- FIM SECTION 3 ---- */
+
+
+
+
+
+
