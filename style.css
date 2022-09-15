@@ -103,11 +103,6 @@ body {
             padding: 15px 0;
             transition: all 1s;
         }
-
-        .menu-itens > a {
-            padding: 10px;
-        }
-
         .menu-itens:hover{
             transform: scale(1.2);
             transition: all .2s;
@@ -118,26 +113,25 @@ body {
             position: relative;
         }
         
-        #inside-menu-nav:hover ~ .inside-menu {
-            display: flex;
-        }
-
-        .inside-menu:hover {
-            display: flex;
+        #inside-menu-nav:hover ~ .inside-menu,
+        .inside-menu:hover  {
+            opacity: 1;
+            transition: .2s all;
+            left: 50%;
         }
 
         .inside-menu {
+            opacity: 0;
             position: absolute;
-            display: none;
+            display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: space-around;
             top: 85%;
-            left: 50%;
+            left: 0%;
             transform: translate(-30%);
             width:  200px;
             height: 170px;
-            border-radius: 0 0 20px 20px;
         }
 
         .inside-menu-item {
@@ -163,7 +157,8 @@ body {
         font-size: small;
         font-weight: bold;
         color: var(--color-1);
-    }
+        padding: 10px;
+   }
     .menu-a:visited {
         color: var(--color-1);
     }
