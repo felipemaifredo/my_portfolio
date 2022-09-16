@@ -252,11 +252,11 @@ body {
 .left-sec1 {
     height: 100%;
     width: 50%;
-    background-color: wheat;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: var(--color-2);
 }
     .box-content-sec1 p:nth-child(1) {
         width: 100%;
@@ -277,6 +277,7 @@ body {
 .right-sec1 {
     height: 100%;
     width: 50%;
+    background-color: var(--color-2);
 }
 /*--- FIM SEC 1 ---*/
 /*--- SEC 2 ---*/
