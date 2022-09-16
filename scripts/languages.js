@@ -33,7 +33,7 @@ changeEN.addEventListener("click", () => {
     navItems[3].innerText = "Projects";
     navItems[4].innerText = "Tools";
     navItems[5].innerText = "Works";
-    navItems[6].innerText = "Whats if...?";
+    navItems[6].innerText = "What if...?";
     navItems[7].innerText = "Blog";
     navItems[8].innerText = "Talk to Me";
    //FIM NAV
