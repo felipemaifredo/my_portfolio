@@ -284,14 +284,25 @@ body {
 #sec2 {
     height: 100vh;
     width: 100vw;
-    background-color: var(--color-2);
+    background: linear-gradient(-45deg, var(--color-5), var(--color-4), var(--color-6), var(--color-7)) no-repeat;
+    background-size: 1000% 1000%;
+    animation: gradient 5s ease alternate infinite;
 }
+    @keyframes gradient {
+        from {
+            background-position: 0 50%;
+        }
+
+        to {
+            background-position: 100% 50%;
+        }
+    }
 /*--- FIM SEC 2 ---*/
-/*--- SEC 3 ---*/
+/*---  SEC 3 ---*/
 #sec3 {
     height: 100vh;
     width: 100vw;
-    background-color: var(--color-3);
+    background-color: var(--color-1);
 }
 /*--- FIM SEC 3 ---*/
 /*--- SEC 4 ---*/
@@ -305,7 +316,7 @@ body {
 #sec5 {
     height: 100vh;
     width: 100vw;
-    background-color: var(--color-5);
+    background-color: var(--color-1);
 }
 /*--- FIM SEC 5 ---*/
 
