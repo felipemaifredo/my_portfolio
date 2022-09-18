@@ -2,7 +2,7 @@ const changePT = document.querySelector("img.br");
 const changeEN = document.querySelector("img.en");
 
 const navItems = document.querySelectorAll("a.menu-a");
-const textsSec1 = document.querySelectorAll("p[text-sec1]");
+const textsSec1 = document.querySelectorAll("[text-sec1]");
 
 
 changePT.addEventListener("click", () => {

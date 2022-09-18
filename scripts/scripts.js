@@ -1,5 +1,5 @@
 // CHANGE THEME
-function change() {
+function changeTheme() {
     if (document.querySelector('input.checkbox').checked) {
         document.body.setAttribute('data-theme', 't-dark')
     } else {
