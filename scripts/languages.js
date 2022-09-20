@@ -23,7 +23,7 @@ changePT.addEventListener("click", () => {
    // SEC 1
    textsSec1[0].innerText = "Olá";
    textsSec1[1].innerText = "Sou o Felipe,";
-   textsSec1[2].innerText = "Desenvolvedor Web";
+   textsSec1[2].innerText = "Desenvolvedor Full Stack";
    //FIM SEC 1
 
 });
@@ -46,7 +46,7 @@ changeEN.addEventListener("click", () => {
    // SEC 1
    textsSec1[0].innerText = "Hi";
    textsSec1[1].innerText = "I'm Felipe,";
-   textsSec1[2].innerText = "Web Developer";
+   textsSec1[2].innerText = "Full Stack Developer";
    //FIM SEC 1
 
 });
