@@ -24,6 +24,9 @@ changePT.addEventListener("click", () => {
    textsSec1[0].innerText = "Olá";
    textsSec1[1].innerText = "Sou o Felipe,";
    textsSec1[2].innerText = "Desenvolvedor Full Stack";
+   textsSec1[3].innerText = "Trabalhos e Groselhas";
+   textsSec1[4].innerText = "de Felipe Gongam,";
+   textsSec1[5].innerText = "Um zé mané qualquer!";
    //FIM SEC 1
 
 });
@@ -47,6 +50,9 @@ changeEN.addEventListener("click", () => {
    textsSec1[0].innerText = "Hi";
    textsSec1[1].innerText = "I'm Felipe,";
    textsSec1[2].innerText = "Full Stack Developer";
+   textsSec1[3].innerText = "Works and Grossels";
+   textsSec1[4].innerText = "Of Felipe Gongam,";
+   textsSec1[5].innerText = "Any any any any any!";
    //FIM SEC 1
 
 });

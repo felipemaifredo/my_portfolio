@@ -278,27 +278,32 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: rebeccapurple;
+    background-image: url("assets/imgs/backgrounds/1.jpg");
+    background-position: center;
+    background-size: cover;
+    transition: all 2s;
 }
 
 .right-box-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 70px;
 }
 
 .right-box-content > img{
     height: 200px;
     border-radius: 50%;
     margin-bottom: 10px;
+    border: 3.5px solid var(--color-1);
 }
 
 .right-box-content > .content-text >  p {
     font-size: 1.5em;
     font-weight: bolder;
     margin: 3px;
-    padding: 3px;
+    padding: 3px 6px;
+    color: var(--color-2);
     background-color: var(--color-1);
 }
 /*--- FIM SEC 1 ---*/
