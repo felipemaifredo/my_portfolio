@@ -61,7 +61,7 @@ body {
     justify-content: center;
     height: 70px;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 .nav-box {
     height: 50px;
@@ -106,12 +106,6 @@ body {
         #inside-menu-nav { 
             position: relative;
         }
-        #inside-menu-nav:hover ~ .inside-menu,
-        .inside-menu:hover  {
-            opacity: 1;
-            transition: .2s all;
-            left: 50%;
-        }
         .inside-menu {
             position: absolute;
             display: flex;
@@ -121,10 +115,18 @@ body {
             width:  200px;
             height: 170px;
             top: 85%;
-            left: -100%;
             transform: translate(-35%);
-            opacity: 0;
+            left: -10%;
+            transition: 1s all;
+            pointer-events: none;
         }
+        #inside-menu-nav:hover ~ .inside-menu,
+        .inside-menu:hover  {
+            left: 50%;
+            transition: .3s all;
+            pointer-events: all;
+        }
+        
             .inside-menu-item {
                 display: flex;
                 align-items: center;
@@ -293,10 +295,25 @@ body {
 }
 
 .right-box-content > img{
-    height: 200px;
+    height: 250px;
     border-radius: 50%;
-    margin-bottom: 10px;
     border: 3.5px solid var(--color-1);
+    position: relative;
+    z-index: 1;
+
+}
+
+.right-box-content::after {
+    content: "";
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: var(--color-1);
+}
+
+.content-text {
+    margin-top: 20px;
 }
 
 .right-box-content > .content-text >  p {

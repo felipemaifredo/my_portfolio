@@ -8,21 +8,18 @@ function changeTheme() {
 }
 // FIM CHANGE THEME
 // CARROSSEL PAGE1 
-    
 const imgObject = document.querySelector("div.right-sec1");
-
-var i = 1;
-var timeT = 10000;
-var images = [];
-    images[1] = "url('assets/imgs/backgrounds/1.jpg')";
-    images[2] = "url('assets/imgs/backgrounds/2.jpg')";
-    images[3] = "url('assets/imgs/backgrounds/3.jpg')";
+var i = 0;
+const timeT = 5000;
+const images = [
+    "url('assets/imgs/backgrounds/0.jpg')", "url('assets/imgs/backgrounds/1.jpg')", "url('assets/imgs/backgrounds/2.jpg')"
+];
 function auto() {
     imgObject.style.backgroundImage = images[i];
-        if ( i < images.length - 1 ) {
+        if ( i < images.length - 1) {
             i++;
         } else {
-            i = 1;
+            i = 0;
     }
     setTimeout("auto()", timeT);
 }
