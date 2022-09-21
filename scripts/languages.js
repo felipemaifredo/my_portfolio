@@ -36,10 +36,13 @@ changePT.addEventListener("click", () => {
    textsSec2[3].innerHTML = "Me chamo Felipe Goncalves, tenho 21 anos, sou morador de Brasília, formado como técnico de informática pelo IFB e atualmente estou graduando em Análise e Desenvolvimento de Sistemas.<br><br>Tive meu primeiro contato com programação em 2017 no ensino médio, e de lá pra cá venho me desenvolvendo minha carreira profissional na área de TI.<br><br>Tenho como objetivo me tonar um grande profissional na área de front-end, e pensando nisso criei esse portifólio para demonstrar minhas habilidades através dos meus projetos.<br>";
    //FIM SEC 2
    // SEC 3
-   textsSec3[0].innerText = "HTML 5 e CSS 3"
-   textsSec3[1].innerText = "Semântica"
-   textsSec3[2].innerText = "Acessibilidade"
-   textsSec3[3].innerText = "Responsividade"
+   textsSec3[0].innerText = "HTML 5 e CSS 3";
+   textsSec3[1].innerText = "Semântica";
+   textsSec3[2].innerText = "Acessibilidade";
+   textsSec3[3].innerText = "Responsividade";
+   textsSec3[6].innerText = "Manipulação de Dom";
+   textsSec3[9].innerText = "Estudando";
+   textsSec3[11].innerText = "Estudando";
    // FIM SEC 3
 });
 
@@ -77,6 +80,9 @@ changeEN.addEventListener("click", () => {
    textsSec3[1].innerText = "Semantics"
    textsSec3[2].innerText = "Accessibility"
    textsSec3[3].innerText = "Responsivity"
+   textsSec3[6].innerText = "Manipulation of Dom";
+   textsSec3[9].innerText = "Studying";
+   textsSec3[11].innerText = "Studying";
    // FIM SEC 3
 
 });
