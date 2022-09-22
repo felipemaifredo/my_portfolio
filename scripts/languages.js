@@ -5,6 +5,8 @@ const navItems = document.querySelectorAll("a.menu-a");
 const textsSec1 = document.querySelectorAll("[text-sec1]");
 const textsSec2 = document.querySelectorAll("[text-sec2]");
 const textsSec3 = document.querySelectorAll("[text-sec3]");
+const textsSec4 = document.querySelectorAll("[text-sec4]");
+
 
 changePT.addEventListener("click", () => {
    changeEN.classList.remove("language-active");
@@ -48,8 +50,23 @@ changePT.addEventListener("click", () => {
    textsSec3[17].innerText = "Estudando";
    textsSec3[18].innerText = "E Mais";
    textsSec3[19].innerText = "Em Breve";
-
    // FIM SEC 3
+   // SEC 4
+   textsSec4[0].innerText = "Ferramentas";
+   textsSec4[1].innerText = "Ferramentas criadas com o intuito de treinar e desenvolver minhas habilidades";
+   textsSec4[2].innerText = "Acessar";
+   textsSec4[3].innerText = "Trabalhos";
+   textsSec4[4].innerText = "Meus trabalhos reais";
+   textsSec4[5].innerText = "Em Breve";
+   textsSec4[6].innerHTML = "E Se...?";
+   textsSec4[7].innerHTML = "E Se tal site de tal grande empresa fosse feita por mim?<br>Aqui eu exploro essa possibilidade.";
+   textsSec4[8].innerText = "Em Breve";
+   textsSec4[9].innerText = "Blog";
+   textsSec4[10].innerText = "Atualizações constantes e talvez relevantes sobre meu dia e minhas opiniões";
+   textsSec4[11].innerText = "Em Breve";
+   // FIM SEC 4
+
+
 });
 
 changeEN.addEventListener("click", () => {
@@ -95,5 +112,19 @@ changeEN.addEventListener("click", () => {
    textsSec3[18].innerText = "And More";
    textsSec3[19].innerText = "Comming Soon";
    // FIM SEC 3
+   // SEC 4
+   textsSec4[0].innerText = "Tolls";
+   textsSec4[1].innerText = "Tools created to train and develop my skills";
+   textsSec4[2].innerText = "Access";
+   textsSec4[3].innerText = "Works";
+   textsSec4[4].innerText = "my real works";
+   textsSec4[5].innerText = "Coming Soon";
+   textsSec4[6].innerHTML = "What if...?";
+   textsSec4[7].innerHTML = "What if such a large company's website was made by me?<br>Here I explore that possibility.";
+   textsSec4[8].innerText = "Coming Soon";
+   textsSec4[9].innerText = "Blog";
+   textsSec4[10].innerText = "References and maybe relevant updates about my day and my opinions";
+   textsSec4[11].innerText = "Coming Soon";
+    // FIM SEC 4
 
 });
