@@ -11,9 +11,7 @@ function changeTheme() {
 const imgObject = document.querySelector("div.right-sec1");
 var i = 0;
 const timeT = 5000;
-const images = [
-    "url('assets/imgs/backgrounds/0.jpg')", "url('assets/imgs/backgrounds/1.jpg')", "url('assets/imgs/backgrounds/2.jpg')"
-];
+const images = ["url('assets/imgs/backgrounds/0.jpg')", "url('assets/imgs/backgrounds/1.jpg')", "url('assets/imgs/backgrounds/2.jpg')"];
 function auto() {
     imgObject.style.backgroundImage = images[i];
         if ( i < images.length - 1) {
