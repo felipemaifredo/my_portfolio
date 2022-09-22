@@ -41,8 +41,14 @@ changePT.addEventListener("click", () => {
    textsSec3[2].innerText = "Acessibilidade";
    textsSec3[3].innerText = "Responsividade";
    textsSec3[6].innerText = "Manipulação de Dom";
-   textsSec3[9].innerText = "Estudando";
-   textsSec3[11].innerText = "Estudando";
+   textsSec3[9].innerHTML = "Controle e Versionamento<br>de Códigos";
+   textsSec3[11].innerText = "Pré-Processador CSS";
+   textsSec3[13].innerText = "Estudando";
+   textsSec3[15].innerText = "Estudando";
+   textsSec3[17].innerText = "Estudando";
+   textsSec3[18].innerText = "E Mais";
+   textsSec3[19].innerText = "Em Breve";
+
    // FIM SEC 3
 });
 
@@ -81,8 +87,13 @@ changeEN.addEventListener("click", () => {
    textsSec3[2].innerText = "Accessibility"
    textsSec3[3].innerText = "Responsivity"
    textsSec3[6].innerText = "Manipulation of Dom";
-   textsSec3[9].innerText = "Studying";
-   textsSec3[11].innerText = "Studying";
+   textsSec3[9].innerHTML = "control and Versioning<br>of Codes";
+   textsSec3[11].innerText = "Pre-Processor CSS";
+   textsSec3[13].innerText = "Studying";
+   textsSec3[15].innerText = "Studying";
+   textsSec3[17].innerText = "Studying";
+   textsSec3[18].innerText = "And More";
+   textsSec3[19].innerText = "Comming Soon";
    // FIM SEC 3
 
 });

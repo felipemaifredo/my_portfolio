@@ -6,6 +6,7 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    transition: all .5s;
 }
 html {
     scroll-behavior: smooth;
@@ -401,7 +402,7 @@ body {
     justify-content: center;
 }
 
-#sec3 img {
+.img-sec3 {
     height: 100px;
 }
 
@@ -477,7 +478,10 @@ body {
     left: 50%;
 }
 
-
+.text-sec3-study::after {
+    content: "";
+    animation: treeBullets 3s infinite;
+}
 
 @keyframes treeBullets {
     0% {
@@ -501,8 +505,98 @@ body {
 #sec4 {
     height: 100vh;
     width: 100vw;
-    background-color: var(--color-4);
+    background-color: var(--color-10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.content-sec4 {
+    height: 80%;
+    width: 80%;
+    background-color:var(--color-1);
+    border-radius: 30px; 
+    display: flex;
+}
+
+.box-content-sec4 {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+
+    .box-content-sec4::after {
+        content: "";
+        top: 50%;
+        transform: translateY(-50%);
+        left: 100%;
+        position: absolute;
+        background-color: var(--color-8);
+        height: 80%;
+        width: 2px;
+    }
+
+    .box-content-sec4:nth-child(4):after {
+        content: none;
+    }
+
+.box-img-sec4 {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+    .box-img-sec4 > img {
+        height: 125px; 
+        margin-bottom: 20px;
+    }
+
+.box-text-sec4 {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+}
+    .box-text-sec4 > h2 {
+        color: var(--color-2);
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
+    .box-text-sec4 > p {
+        color: var(--color-2);
+        font-weight: bold;
+        font-size: 1em;
+        margin-top: 10px;
+    }
+
+.box-link-sec4 {
+    height: 20%;
+}
+
+    .box-link-sec4 > div {
+        height: 40px;
+        width: 100px;
+        background-color: var(--color-2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+        .box-link-sec4 > div > a{
+            padding: 15px 10px;
+            color: var(--color-1);
+        }
+            .box-link-sec4  > a:hover {
+                transition: all 0.2s;
+                background-color: var(--color-7);
+            }
 /*--- FIM SEC 4 ---*/
 /*--- SEC 5 ---*/
 #sec5 {
