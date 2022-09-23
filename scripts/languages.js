@@ -6,6 +6,7 @@ const textsSec1 = document.querySelectorAll("[text-sec1]");
 const textsSec2 = document.querySelectorAll("[text-sec2]");
 const textsSec3 = document.querySelectorAll("[text-sec3]");
 const textsSec4 = document.querySelectorAll("[text-sec4]");
+const textsSec5 = document.querySelectorAll("[text-sec5]");
 
 
 changePT.addEventListener("click", () => {
@@ -65,6 +66,12 @@ changePT.addEventListener("click", () => {
    textsSec4[10].innerText = "Atualizações constantes e talvez relevantes sobre meu dia e minhas opiniões";
    textsSec4[11].innerText = "Em Breve";
    // FIM SEC 4
+   // SEC 5
+   textsSec5[0].innerText = "Obrigado por Chegar até aqui!";
+   textsSec5[1].innerText = "Me envie uma mensagem abaixo";
+   textsSec5[2].innerText = "que eu entro em contato com você";
+   textsSec5[3].innerText = "Enviar";
+
 
 
 });
@@ -126,5 +133,10 @@ changeEN.addEventListener("click", () => {
    textsSec4[10].innerText = "References and maybe relevant updates about my day and my opinions";
    textsSec4[11].innerText = "Coming Soon";
     // FIM SEC 4
+    // SEC 5
+    textsSec5[0].innerText = "Thanks for getting here!";
+    textsSec5[1].innerText = "send me a message below";
+    textsSec5[2].innerText = "that I get in touch with you";
+    textsSec5[3].innerText = "Send";
 
 });
