@@ -73,6 +73,8 @@ body {
     display: flex;
     background-color: var(--color-8);
     border-radius: 50px;
+    position: relative;
+
 }
     .left-nav {
         height: 100%;
@@ -108,14 +110,10 @@ body {
             transition: all .2s;
             margin: 5px;
         }
-
-        .inside-menu-nav { 
-            position: relative;
-        }
         
         .inside-menu {
             position: absolute;
-            top: 86%;
+            top: 100%;
             left: -50%;
             width: 150px;
             height: 170px;
@@ -129,7 +127,7 @@ body {
         }
             .inside-menu-nav:hover ~ .inside-menu,
             .inside-menu:hover  {
-                left: 52%;
+                left: 54%;
                 transition: .3s all;
                 pointer-events: all;
             }
