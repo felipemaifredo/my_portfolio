@@ -91,6 +91,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
+
     }
         .center-nav > .center-menu-nav {
             width: 100%;
@@ -107,30 +108,31 @@ body {
             transition: all .2s;
             margin: 5px;
         }
-        #inside-menu-nav { 
+
+        .inside-menu-nav { 
             position: relative;
         }
+        
         .inside-menu {
             position: absolute;
+            top: 86%;
+            left: -50%;
+            width: 150px;
+            height: 170px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: space-around;
-            width:  200px;
-            height: 170px;
-            top: 85%;
-            transform: translateX(-40%);
-            left: -50%;
+            transform: translateX(-50%);
             transition: 1s all;
             pointer-events: none;
         }
-        #inside-menu-nav:hover ~ .inside-menu,
-        .inside-menu:hover  {
-            left: 51%;
-            transition: .3s all;
-            pointer-events: all;
-        }
-        
+            .inside-menu-nav:hover ~ .inside-menu,
+            .inside-menu:hover  {
+                left: 52%;
+                transition: .3s all;
+                pointer-events: all;
+            }
             .inside-menu-item {
                 display: flex;
                 align-items: center;
