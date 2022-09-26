@@ -114,7 +114,7 @@ body {
         .inside-menu {
             position: absolute;
             top: 100%;
-            left: -50%;
+            left: -101%;
             width: 150px;
             height: 170px;
             display: flex;
@@ -674,6 +674,7 @@ body {
             display: flex;
             align-items: center;
             justify-content: center;
+            cursor: pointer;
         }
 
 
@@ -693,8 +694,5 @@ body {
             height: 90px;
             transition: all .2s;
         }
-
-
-
 /*--- FIM SEC 5 ---*/
 
