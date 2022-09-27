@@ -12,12 +12,9 @@ const input1Sec5 = document.getElementsByName('nome')[0];
 const input2Sec5 = document.getElementsByName('whatsappemail')[0];
 const input3Sec5 = document.getElementsByName('assunto')[0];
 
-
-
 changePT.addEventListener("click", () => {
    changeEN.classList.remove("language-active");
    changePT.classList.add("language-active")
-
    //NAV
    navItems[0].innerText = "Home";
    navItems[1].innerText = "Sobre";
@@ -84,7 +81,6 @@ changePT.addEventListener("click", () => {
 changeEN.addEventListener("click", () => {
     changePT.classList.remove("language-active");
     changeEN.classList.add("language-active")
-  
     //NAV
     navItems[0].innerText = "Home";
     navItems[1].innerText = "About";
