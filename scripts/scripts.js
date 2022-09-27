@@ -2,10 +2,22 @@
 function changeTheme() {
     if (document.querySelector('input.checkbox').checked) {
         document.body.setAttribute('data-theme', 't-dark')
+        localStorage.setItem("theme", "dark")
     } else {
         document.body.setAttribute('data-theme', 't-light')
+        localStorage.setItem("theme", "light")
     }
 }
+
+function detectTheme() {
+    if (localStorage.theme == "dark") {
+        document.querySelector('input.checkbox').checked = true;
+        document.body.setAttribute('data-theme', 't-dark')
+    } else if (localStorage.theme == "light") {
+        localStorage.setItem("theme", "light")
+    };
+} detectTheme();
+
 // FIM CHANGE THEME
 // CARROSSEL PAGE1 
 const imgObject = document.querySelector("div.right-sec1");
