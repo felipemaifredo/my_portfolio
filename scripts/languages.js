@@ -12,9 +12,13 @@ const input1Sec5 = document.getElementsByName('nome')[0];
 const input2Sec5 = document.getElementsByName('whatsappemail')[0];
 const input3Sec5 = document.getElementsByName('assunto')[0];
 
-changePT.addEventListener("click", () => {
+changePT.addEventListener("click", changePTFunc)
+changeEN.addEventListener("click", changeENFunc)
+
+function changePTFunc() {
    changeEN.classList.remove("language-active");
    changePT.classList.add("language-active")
+   localStorage.setItem("idiom", "br")
    //NAV
    navItems[0].innerText = "Home";
    navItems[1].innerText = "Sobre";
@@ -76,11 +80,12 @@ changePT.addEventListener("click", () => {
    input1Sec5.placeholder="Nome";
    input2Sec5.placeholder="Email ou WhatsApp";
    input3Sec5.placeholder="Assunto";
-});
+};
 
-changeEN.addEventListener("click", () => {
+function changeENFunc() {
     changePT.classList.remove("language-active");
     changeEN.classList.add("language-active")
+    localStorage.setItem("idiom", "en")
     //NAV
     navItems[0].innerText = "Home";
     navItems[1].innerText = "About";
@@ -142,4 +147,12 @@ changeEN.addEventListener("click", () => {
     input1Sec5.placeholder="Name";
     input2Sec5.placeholder="Email or WhatsApp";
     input3Sec5.placeholder="Subject";
-});
+};
+
+function detectIdiom() {
+    if (localStorage.idiom == "br") {
+        changePTFunc();
+    } else if (localStorage.idiom == "en") {
+        changeENFunc();
+    };
+} detectIdiom();
