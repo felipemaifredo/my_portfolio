@@ -41,18 +41,15 @@ documentForm.addEventListener("submit", (event) => {
 
     if ( nameV == "" || whatsEmailV == "" || assuntoV == "" ) {
         formBtn.innerHTML = "Preecha os campos acima"
-        setTimeout(function() {
+        setTimeout( () => {
             formBtn.innerHTML = "Enviar";
         }, 5000);
     } else {
         formBtn.innerHTML ='<img src="assets/imgs/loading.png">';
         fetch("https://api.sheetmonkey.io/form/7JKr1TpjSCqNPfTEju5jZ8", {
-        method: "post",
-            headers: {
-                "Accept": "aplication/json", 
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({ nome: nameV, WhatsAppEmail: whatsEmailV, Assunto: assuntoV, Quando: getTime }),
+            method: "post",
+            headers: { "Accept": "aplication/json", "Content-Type": "application/json" 
+            }, body: JSON.stringify({ nome: nameV, WhatsAppEmail: whatsEmailV, Assunto: assuntoV, Quando: getTime }),
         }).then( () => msgEnviada() )
     };
 });
@@ -65,7 +62,7 @@ function getHours() {
 
 function msgEnviada() {
     formBtn.innerHTML = "Mensagem Enviada!";
-    setTimeout(function() {
+    setTimeout( () => {
         nameIn.value = "";
         whatsEmail.value = "";
         assunto.value = "";
