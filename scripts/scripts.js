@@ -48,8 +48,8 @@ documentForm.addEventListener("submit", (event) => {
         formBtn.innerHTML ='<img src="assets/imgs/loading.png">';
         fetch("https://api.sheetmonkey.io/form/7JKr1TpjSCqNPfTEju5jZ8", {
             method: "post",
-            headers: { "Accept": "aplication/json", "Content-Type": "application/json" 
-            }, body: JSON.stringify({ nome: nameV, WhatsAppEmail: whatsEmailV, Assunto: assuntoV, Quando: getTime }),
+            headers: { "Accept": "aplication/json", "Content-Type": "application/json" },
+            body: JSON.stringify({ nome: nameV, WhatsAppEmail: whatsEmailV, Assunto: assuntoV, Quando: getTime }),
         }).then( () => msgEnviada() )
     };
 });
