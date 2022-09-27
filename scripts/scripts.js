@@ -33,9 +33,9 @@ document.querySelector("form").addEventListener("submit", (event) => {
     let whatsEmail = document.querySelector("input[name=whatsappemail]").value;
     let assunto = document.querySelector("input[name=assunto]").value;
 
-    if ( name == "" && whatsEmail == "" && assunto == "" ) {
+    if ( name == "" || whatsEmail == "" || assunto == "" ) {
         formBtn.innerHTML = "Preecha os campos acima"
-        setTimeout(function (){
+        setTimeout(function() {
             formBtn.innerHTML = "Enviar";
         }, 5000);
     } else {
