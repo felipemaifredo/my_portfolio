@@ -8,6 +8,11 @@ const textsSec3 = document.querySelectorAll("[text-sec3]");
 const textsSec4 = document.querySelectorAll("[text-sec4]");
 const textsSec5 = document.querySelectorAll("[text-sec5]");
 
+const input1Sec5 = document.getElementsByName('nome')[0];
+const input2Sec5 = document.getElementsByName('whatsappemail')[0];
+const input3Sec5 = document.getElementsByName('assunto')[0];
+
+
 
 changePT.addEventListener("click", () => {
    changeEN.classList.remove("language-active");
@@ -67,13 +72,13 @@ changePT.addEventListener("click", () => {
    textsSec4[11].innerText = "Em Breve";
    // FIM SEC 4
    // SEC 5
-   textsSec5[0].innerText = "Obrigado por Chegar até aqui!";
+   textsSec5[0].innerText = "Obrigado por chegar até aqui!";
    textsSec5[1].innerText = "Me envie uma mensagem abaixo";
-   textsSec5[2].innerText = "que eu entro em contato com você";
+   textsSec5[2].innerText = "que eu entrarei em contato com você";
    textsSec5[3].innerText = "Enviar";
-
-
-
+   input1Sec5.placeholder="Nome";
+   input2Sec5.placeholder="Email ou WhatsApp";
+   input3Sec5.placeholder="Assunto";
 });
 
 changeEN.addEventListener("click", () => {
@@ -138,5 +143,7 @@ changeEN.addEventListener("click", () => {
     textsSec5[1].innerText = "send me a message below";
     textsSec5[2].innerText = "that I get in touch with you";
     textsSec5[3].innerText = "Send";
-
+    input1Sec5.placeholder="Name";
+    input2Sec5.placeholder="Email or WhatsApp";
+    input3Sec5.placeholder="Subject";
 });
