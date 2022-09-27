@@ -24,16 +24,22 @@ function auto() {
 auto()
 // FIM CARROSSEL PAGE 1 
 // FORM SEND
+const documentForm = document.querySelector("form");
 const formBtn = document.querySelector("button.form-btn");
+const nameIn = document.querySelector("input[name=nome]");
+const whatsEmail = document.querySelector("input[name=whatsappemail]")
+const assunto = document.querySelector("input[name=assunto]");
 
-document.querySelector("form").addEventListener("submit", (event) => {
+documentForm.addEventListener("submit", (event) => {
+    
     event.preventDefault();
-    let  getTime = getHours()
-    let name = document.querySelector("input[name=nome]").value;
-    let whatsEmail = document.querySelector("input[name=whatsappemail]").value;
-    let assunto = document.querySelector("input[name=assunto]").value;
 
-    if ( name == "" || whatsEmail == "" || assunto == "" ) {
+    let  getTime = getHours()
+    let nameV =  nameIn.value;
+    let whatsEmailV =  whatsEmail.value;
+    let assuntoV = assunto.value;
+
+    if ( nameV == "" || whatsEmailV == "" || assuntoV == "" ) {
         formBtn.innerHTML = "Preecha os campos acima"
         setTimeout(function() {
             formBtn.innerHTML = "Enviar";
@@ -46,18 +52,25 @@ document.querySelector("form").addEventListener("submit", (event) => {
                 "Accept": "aplication/json", 
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify({ nome: name, WhatsAppEmail: whatsEmail, Assunto: assunto, Quando: getTime }),
+            body: JSON.stringify({ nome: nameV, WhatsAppEmail: whatsEmailV, Assunto: assuntoV, Quando: getTime }),
         }).then( () => msgEnviada() )
     };
-}); 
+});
 
 function getHours() {
     let timeElapsed = Date.now();
     let today = new Date(timeElapsed);
     return today.toUTCString(); // "Sun, 30 Jan 2022 18:30:00 GMT"
-}
+};
 
 function msgEnviada() {
     formBtn.innerHTML = "Mensagem Enviada!";
-}
+    setTimeout(function() {
+        nameIn.value = "";
+        whatsEmail.value = "";
+        assunto.value = "";
+        formBtn.innerHTML = "Enviar";
+    }, 5000);
+};
+//  FAZER TEMPORIZADOR PARA LIMPAR OS CAMPOS PERMITIR UMA NOVA MENSAGEM
 // FIM FORM SEND
