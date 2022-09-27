@@ -16,7 +16,7 @@ function detectTheme() {
     } else if (localStorage.theme == "light") {
         localStorage.setItem("theme", "light")
     };
-} detectTheme();
+}; detectTheme();
 
 // FIM CHANGE THEME
 // CARROSSEL PAGE1 
@@ -32,8 +32,7 @@ function auto() {
             i = 0;
     }
     setTimeout("auto()", timeT);
-}
-auto()
+}; auto();
 // FIM CARROSSEL PAGE 1 
 // FORM SEND
 const documentForm = document.querySelector("form");
