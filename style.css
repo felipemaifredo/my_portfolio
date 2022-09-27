@@ -686,7 +686,7 @@ body {
             width: 60%;  
             height: 40px;
             padding: 10px;     
-            border: 1px solid var(--color-2);      
+            border: 1px solid var(--color-8);      
             border-radius: 5px;
             outline: none;
             font-weight: bold;
@@ -705,6 +705,7 @@ body {
             cursor: pointer;
             transition:var(--time-1);
             font-weight: bolder;
+            border: 1px solid var(--color-9);
         }
 
             .box-content-sec5:nth-child(2) .form-btn > img{
