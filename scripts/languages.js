@@ -28,7 +28,7 @@ function changePTFunc() {
    navItems[5].innerText = "Trabalhos";
    navItems[6].innerText = "E Se...?";
    navItems[7].innerText = "Blog";
-   navItems[8].innerText = "Fale Comigo";
+   navItems[8].innerText = "Contato";
    //FIM NAV
    // SEC 1
    textsSec1[0].innerText = "Olá";

@@ -82,3 +82,20 @@ function msgEnviada() {
 };
 //  FAZER TEMPORIZADOR PARA LIMPAR OS CAMPOS PERMITIR UMA NOVA MENSAGEM
 // FIM FORM SEND
+// MENU MOBILE
+const itemsNav = document.querySelectorAll("a.menu-a");
+const nav = document.querySelector("nav#nav");
+
+function toggleMenu() {
+    nav.classList.toggle("active");
+}
+
+for (let i = 0; i < itemsNav.length; i++) {
+    
+    itemsNav[i].addEventListener("click", () => {
+        if ( nav.classList.contains = "active") {
+            nav.classList.remove("active");
+        };
+    });
+};
+// FIM MENU MOBILE

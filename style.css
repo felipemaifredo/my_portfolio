@@ -111,6 +111,11 @@ body {
     width: 100%;
     z-index: 2;
 }
+
+.nav-btn {
+    display: none;
+}
+
 .nav-box {
     height: 50px;
     width: 690px;
@@ -751,6 +756,67 @@ body {
 /*--- FIM SEC 5 ---*/
 /*--- INICIO MOBILE 1000PX ---*/
 @media (max-width: 1000px) {
+
+/*--- NAV ---*/
+#nav .center-menu-nav {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color:var(--color-8);
+    color: var(--color-1);
+    width: 150px;
+    top: 101%;
+    
+    opacity: 0;
+    left: 120%;
+    pointer-events: none;
+    transition: var(--time-2);
+}
+
+.nav-box {
+    width: 350px;
+    position: relative;
+}   
+    .left-nav {
+        width: 20%;
+    }
+        .left-nav img {
+            height: 30px;
+            width: 30px;
+        }
+
+    .center-nav {
+        width: 30%;
+    }
+
+        .nav-btn {
+            display: inline-block;
+            padding: 10px;
+            border: none;
+            background-color: var(--color-1);
+            color: var(--color-2);
+            cursor: pointer;
+        }
+    .right-nav {
+        width: 50%;
+    }
+
+    .inside-menu-nav:hover ~ .inside-menu, .inside-menu:hover  {
+            display: none;
+    }
+
+    .menu-itens:hover, .inside-menu-item:hover{
+        transform: none;
+        margin: none;
+    }
+
+.active .center-menu-nav {
+    opacity: 1 !important;
+    left: 12% !important;
+    pointer-events: all !important;
+    transition: var(--time-2) !important;
+}
+/*--- FIM FIM ---*/
     #sec1 {
         flex-direction: column;
     }
