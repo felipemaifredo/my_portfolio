@@ -788,12 +788,27 @@ body {
     }
 
         .nav-btn {
-            display: inline-block;
+            display: flex;
+            gap: 5px;
             padding: 10px;
             border: none;
-            background-color: var(--color-1);
+            background-color: var(--color-8);
             color: var(--color-2);
             cursor: pointer;
+        }
+        .btn-nav-icon {
+            border-top: 2px solid currentColor;
+            width: 20px;
+            transition: var(--time-2);
+        }
+        .btn-nav-icon::after, .btn-nav-icon::before {
+            content: "";
+            width: 20px;
+            height: 2px;
+            background-color: currentColor;
+            display: block;
+            margin-top: 5px;
+            transition: var(--time-2);
         }
     .right-nav {
         width: 50%;
@@ -813,6 +828,23 @@ body {
     left: -25% !important;
     pointer-events: all !important;
     transition: var(--time-2) !important;
+}
+
+.active .btn-nav-icon::before {
+    display: none;
+    transition: var(--time-2);
+}
+
+.active .btn-nav-icon::after {
+    transition: var(--time-2);
+    transform: rotate(135deg);
+    background-color: green;
+} 
+
+.active .btn-nav-icon {
+    transition: var(--time-2);
+    transform: rotate(-135deg);
+    border-top: 2px solid red;
 }
 /*--- FIM FIM ---*/
     #sec1 {
@@ -869,10 +901,7 @@ body {
         height: 2px;
         width: 80%;
     }
-
 }
-
-
 
 /*-- INICIO MOBILE MINIMO --*/
 @media (max-width: 410px) {
