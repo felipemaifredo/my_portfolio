@@ -122,7 +122,6 @@ body {
     display: flex;
     background-color: var(--color-8);
     border-radius: 50px;
-    position: relative;
 
 }
     .left-nav {
@@ -142,7 +141,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-
+        position: relative;
     }
         .center-nav > .center-menu-nav {
             width: 100%;
@@ -158,8 +157,7 @@ body {
             transform: scale(1.2);
             transition: var(--time-2);
             margin: 5px;
-        }
-        
+        }        
         .inside-menu {
             position: absolute;
             top: 100%;
@@ -177,7 +175,7 @@ body {
         }
             .inside-menu-nav:hover ~ .inside-menu,
             .inside-menu:hover  {
-                left: 54%;
+                left: 66.5%;
                 transition: var(--time-2);
                 pointer-events: all;
                 opacity: 1;

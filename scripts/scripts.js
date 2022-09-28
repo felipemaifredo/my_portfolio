@@ -90,8 +90,7 @@ function toggleMenu() {
     nav.classList.toggle("active");
 }
 
-for (let i = 0; i < itemsNav.length; i++) {
-    
+for (let i = 0; i < itemsNav.length; i++) { 
     itemsNav[i].addEventListener("click", () => {
         if ( nav.classList.contains = "active") {
             nav.classList.remove("active");
