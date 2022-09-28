@@ -753,7 +753,7 @@ body {
         }
 /*--- FIM SEC 5 ---*/
 /*--- INICIO MOBILE 1000PX ---*/
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
 
 /*--- NAV ---*/
 #nav .center-menu-nav {
