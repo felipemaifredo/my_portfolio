@@ -752,6 +752,10 @@ body {
             transition: var(--time-2);
         }
 
+
+    #sec5 a {
+        color: black;
+    }
     #sec5 a:visited {
         color: black;
     }
