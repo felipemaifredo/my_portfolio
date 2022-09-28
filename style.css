@@ -802,12 +802,12 @@ body {
     }
 
     .inside-menu-nav:hover ~ .inside-menu, .inside-menu:hover  {
-            display: none;
+        display: none;
     }
 
     .menu-itens:hover, .inside-menu-item:hover{
         transform: none;
-        margin: none;
+        margin: 0px;
     }
 
 .active .center-menu-nav {
