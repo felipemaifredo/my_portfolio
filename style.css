@@ -810,7 +810,7 @@ body {
 
 .active .center-menu-nav {
     opacity: 1 !important;
-    left: 12% !important;
+    left: -25% !important;
     pointer-events: all !important;
     transition: var(--time-2) !important;
 }
@@ -870,4 +870,31 @@ body {
         width: 80%;
     }
 
+}
+
+
+
+/*-- INICIO MOBILE MINIMO --*/
+@media (max-width: 410px) {
+    #sec2 h2 {
+        width: 100%;
+        font-size: 1.4em;
+        margin: 20px;
+        color: var(--color-2);
+        text-align: left;
+        margin-bottom: -10px;
+    }
+    #sec2 p {
+        width: 100%;
+        font-size: 1.2em;
+        margin: 20px;
+        color: var(--color-2);
+    }
+    
+}
+
+@media (max-height: 790px) {
+    #sec1, #sec2 {
+        height: 150vh;
+    }
 }
