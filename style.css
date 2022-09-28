@@ -754,7 +754,6 @@ body {
 /*--- FIM SEC 5 ---*/
 /*--- INICIO MOBILE 1000PX ---*/
 @media (max-width: 900px) {
-
 /*--- NAV ---*/
 #nav .center-menu-nav {
     position: absolute;
@@ -1060,8 +1059,8 @@ body {
     
 }
 
-@media (max-height: 790px) {
-    #sec1, #sec2 {
+@media (max-height: 600px) {
+    #sec1, #sec2,#sec3, #sec4, #sec5 {
         height: 150vh;
     }
 }
