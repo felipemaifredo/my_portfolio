@@ -751,6 +751,10 @@ body {
             height: 90px;
             transition: var(--time-2);
         }
+
+    #sec5 a:visited {
+        color: black;
+    }
 /*--- FIM SEC 5 ---*/
 /*--- INICIO MOBILE 1000PX ---*/
 @media (max-width: 900px) {
