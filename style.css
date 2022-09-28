@@ -917,10 +917,6 @@ body {
         gap: 10px;
     }
     .img-sec3 {
-        height: 80px;
-    }
-
-    .img-sec3:ne, .img-sec3:nth-child(2)  {
         height: 70px;
     }
 
@@ -972,11 +968,11 @@ body {
     /*-- FIM SEC 3 --*/
     /*--- SEC 4 ---*/
     #sec4 {
-        height: 150vh;
+        height: 120vh;
     }
 
     .content-sec4 {
-        height: 90%;
+        height: 95%;
         width: 90%;
         flex-direction: column;
         align-items: center;
@@ -986,6 +982,10 @@ body {
     .box-content-sec4 {
         width: 90%;
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: -20px;
+        padding: 10px;
     }
 
         .box-content-sec4::after {
