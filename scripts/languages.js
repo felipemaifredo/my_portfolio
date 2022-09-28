@@ -117,7 +117,7 @@ function changeENFunc() {
    textsSec3[2].innerText = "Accessibility"
    textsSec3[3].innerText = "Responsivity"
    textsSec3[6].innerText = "Manipulation of Dom";
-   textsSec3[9].innerHTML = "control and Versioning<br>of Codes";
+   textsSec3[9].innerHTML = "Control and Versioning<br>of Codes";
    textsSec3[11].innerText = "Pre-Processor CSS";
    textsSec3[13].innerText = "Studying";
    textsSec3[15].innerText = "Studying";
