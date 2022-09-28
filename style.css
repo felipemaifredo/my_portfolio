@@ -1060,7 +1060,7 @@ body {
 }
 
 @media (max-height: 700px) {
-    #sec1, #sec2,#sec3, #sec4, #sec5 {
+    #sec1, #sec2 {
         height: 150vh;
     }
 }
