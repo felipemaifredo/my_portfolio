@@ -1061,6 +1061,6 @@ body {
 
 @media (max-height: 800px) {
     #sec1, #sec2 {
-        height: 150vh;
+        height: 120vh;
     }
 }
