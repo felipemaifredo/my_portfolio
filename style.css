@@ -897,17 +897,21 @@ body {
         height: 80vh;
         font-size: .8em;
     }
-
         .left-sec2, .right-sec2 {
+            height: 50%;
             width: 95%;
             justify-content: flex-end;
         }
+
+            .right-sec2 {
+                justify-content: flex-start;
+            }
 
     .left-sec2::after {
         position: absolute;
         content: "";
         background-color: var(--color-2);
-        top: 115%;
+        top: 110%;
         left: 50%;
         transform: translateX(-50%);
         height: 2px;
