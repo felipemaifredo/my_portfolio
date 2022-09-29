@@ -605,7 +605,6 @@ body {
     justify-content: flex-start;
     height: 20%;
 }
-
     .box-link-sec4 > div {
         height: 40px;
         width: 100px;
@@ -613,6 +612,8 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
+        border-radius: 20px;
+
 
     }
         .box-link-sec4 > div > a{
@@ -997,19 +998,20 @@ body {
     }
 
     .box-content-sec4 {
+        height: 25%;
         width: 90%;
+        padding: 5px;
         flex-direction: row;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
-        margin-top: -20px;
-        padding: 10px;
+        margin: 1px;
     }
 
         .box-content-sec4::after {
             height: 2px;
-            width: 90%;
+            width: 95%;
             left: 50%;
-            top: 110%;
+            top: 95%;
             transform: translateX(-50%);
         }
 
@@ -1019,7 +1021,6 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-
     }
         .box-img-sec4 > img {
             height: 100px;
@@ -1029,24 +1030,19 @@ body {
     .box-text-sec4 {
         width: 70%;
         height: 60%;
-        margin-left: 20px;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: center;
     }
-        .box-text-sec4 > h2 {
-            text-align: left;
-        }
-
         .box-text-sec4 > p {
-            text-align: left;
+            font-size: 13px;
         }
 
     .box-link-sec4 {
         position: absolute;
         display: block;
-        bottom: 0;
+        bottom: 50px;
     }
     /*--- FIM SEC 4 ---*/
     /*--- SEC 5 ---*/
