@@ -894,7 +894,7 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 80vh;
+        height: 600px;
         font-size: .8em;
     }
         .left-sec2, .right-sec2 {
@@ -905,7 +905,7 @@ body {
         }
 
             .right-sec2 {
-                margin-top: 10px;
+                margin-top: 30px;
                 justify-content: flex-start;
             }
 
