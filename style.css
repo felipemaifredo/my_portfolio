@@ -905,6 +905,7 @@ body {
         }
 
             .right-sec2 {
+                margin-top: 10px;
                 justify-content: flex-start;
             }
 
