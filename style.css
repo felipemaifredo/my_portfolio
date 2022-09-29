@@ -900,6 +900,7 @@ body {
         .left-sec2, .right-sec2 {
             height: 50%;
             width: 95%;
+            margin-bottom: 5px;
             justify-content: flex-end;
         }
 
@@ -916,6 +917,7 @@ body {
         transform: translateX(-50%);
         height: 2px;
         width: 80%;
+        margin-bottom: 5px;
     }
     /*--- SEC 3 ---*/
 
