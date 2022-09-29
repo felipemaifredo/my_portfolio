@@ -122,7 +122,6 @@ body {
     display: flex;
     background-color: var(--color-8);
     border-radius: 50px;
-
 }
     .left-nav {
         height: 100%;
@@ -207,7 +206,7 @@ body {
         width: 20%;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-right: 10px;
     }
         .right-nav-language {
@@ -247,7 +246,7 @@ body {
                 width: 60px;
                 height: 34px;
                 cursor: pointer;
-                margin-right: 20px;
+                margin-right: 0px;
             }
             .checkbox {
                 display: none;
@@ -354,7 +353,6 @@ body {
     border: 3.5px solid var(--color-1);
     position: relative;
     z-index: 1;
-
 }
 
 .right-box-content::after {
@@ -794,7 +792,6 @@ body {
     .center-nav {
         width: 30%;
     }
-
         .nav-btn {
             display: flex;
             gap: 5px;
@@ -820,6 +817,16 @@ body {
         }
     .right-nav {
         width: 50%;
+        margin-right: 0px;        
+    }
+
+        .right-nav-theme {
+            display: flex;
+            justify-content: center;
+        }
+
+    .swith {
+        margin-right: 10px;
     }
 
     .inside-menu-nav:hover ~ .inside-menu, .inside-menu:hover  {
@@ -1075,6 +1082,23 @@ body {
 
 @media (max-height: 800px) {
     #sec1 {
-        height: 120vh;
+        height: 100vh;
+        
+    }
+    .right-box-content > img{
+        height: 200px;
+        border-radius: 50%;
+        border: 3.5px solid var(--color-1);
+        position: relative;
+        z-index: 1;
+    }
+    
+    .right-box-content::after {
+        content: "";
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        position: absolute;
+        background-color: var(--color-1);
     }
 }
