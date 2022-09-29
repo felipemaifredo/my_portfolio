@@ -92,9 +92,7 @@ function toggleMenu() {
 
 for (let i = 0; i < itemsNav.length; i++) { 
     itemsNav[i].addEventListener("click", () => {
-        if ( nav.classList.contains = "active") {
-            nav.classList.remove("active");
-        };
+        nav.classList.remove("active");
     });
 };
 // FIM MENU MOBILE
