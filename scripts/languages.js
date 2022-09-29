@@ -107,7 +107,7 @@ function changeENFunc() {
    //FIM SEC 1
     //SEC 2
     textsSec2[0].innerText = "Me and just me";
-    textsSec2[1].innerHTML = "My name is Felipe Goncalves, I'm 25 years old, I live in Cachoeiro de Itapemirim, Espirito Santo, yes, land of King Roberto Carlos, and I'm currently majoring in Systems Analysis and Development.<br><br>I had my first contact with programming in 2018, and since then I have been developing my professional career in the IT field.";
+    textsSec2[1].innerHTML = "My name is Felipe Goncalves, I'm 25 years old, I live in Cachoeiro de Itapemirim, Espirito Santo, yes, land of King Roberto Carlos, and I'm currently majoring in Systems Analysis and Development.<br><br>I had my first contact with programming in 2018, but I only started my studies in 2020";
     textsSec2[2].innerText = "Objective";
     textsSec2[3].innerHTML = "I aim to become a great front-end professional, and with that in mind I created this portfolio to demonstrate my skills through my projects.";
     //FIM SEC 2
