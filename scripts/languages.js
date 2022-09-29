@@ -40,9 +40,9 @@ function changePTFunc() {
    //FIM SEC 1
    //SEC 2
    textsSec2[0].innerText = "Eu e apenas eu";
-   textsSec2[1].innerHTML = "Me chamo Felipe Goncalves, tenho 21 anos, sou morador de Brasília, formado como técnico de informática pelo IFB e atualmente estou graduando em Análise e Desenvolvimento de Sistemas.<br><br>Tive meu primeiro contato com programação em 2017 no ensino médio, e de lá pra cá venho me desenvolvendo minha carreira profissional na área de TI.<br><br>Tenho como objetivo me tonar um grande profissional na área de front-end, e pensando nisso criei esse portifólio para demonstrar minhas habilidades através dos meus projetos.<br>";
+   textsSec2[1].innerHTML = "Me chamo Felipe Goncalves, tenho 25 anos, sou morador de Cachoeiro de Itapemirim, Espirito Santo, sim, terra do rei Roberto Carlos, e atualmente estou graduando em Análise e Desenvolvimento de Sistemas.<br><br>Tive meu primeiro contato com programação em 2018, e de lá pra cá venho me desenvolvendo minha carreira profissional na área de TI.";
    textsSec2[2].innerText = "Objetivo";
-   textsSec2[3].innerHTML = "Me chamo Felipe Goncalves, tenho 21 anos, sou morador de Brasília, formado como técnico de informática pelo IFB e atualmente estou graduando em Análise e Desenvolvimento de Sistemas.<br><br>Tive meu primeiro contato com programação em 2017 no ensino médio, e de lá pra cá venho me desenvolvendo minha carreira profissional na área de TI.<br><br>Tenho como objetivo me tonar um grande profissional na área de front-end, e pensando nisso criei esse portifólio para demonstrar minhas habilidades através dos meus projetos.<br>";
+   textsSec2[3].innerHTML = "Tenho como objetivo me tonar um grande profissional na área de front-end, e pensando nisso criei esse portifólio para demonstrar minhas habilidades através dos meus projetos.";
    //FIM SEC 2
    // SEC 3
    textsSec3[0].innerText = "HTML 5 e CSS 3";
@@ -107,9 +107,9 @@ function changeENFunc() {
    //FIM SEC 1
     //SEC 2
     textsSec2[0].innerText = "Me and just me";
-    textsSec2[1].innerHTML = "My name is Felipe Goncalves, I'm 21 years old, I'm a resident of Brasília, graduated as a computer technician at the IFB and I'm currently graduating in Systems Analysis and Development.<br><br>I had my first contact with programming in 2017 in high school, and since then I have been developing my professional career in the IT field.<br><br>I aim to become a great professional in the front-end area, and with that in mind I created this portfolio to demonstrate my skills through my projects.";
+    textsSec2[1].innerHTML = "My name is Felipe Goncalves, I'm 25 years old, I live in Cachoeiro de Itapemirim, Espirito Santo, yes, land of King Roberto Carlos, and I'm currently majoring in Systems Analysis and Development.<br><br>I had my first contact with programming in 2018, and since then I have been developing my professional career in the IT field.";
     textsSec2[2].innerText = "Objective";
-    textsSec2[3].innerHTML = "My name is Felipe Goncalves, I'm 21 years old, I'm a resident of Brasília, graduated as a computer technician at the IFB and I'm currently graduating in Systems Analysis and Development.<br><br>I had my first contact with programming in 2017 in high school, and since then I have been developing my professional career in the IT field.<br><br>I aim to become a great professional in the front-end area, and with that in mind I created this portfolio to demonstrate my skills through my projects.";
+    textsSec2[3].innerHTML = "I aim to become a great front-end professional, and with that in mind I created this portfolio to demonstrate my skills through my projects.";
     //FIM SEC 2
     // SEC 3
    textsSec3[0].innerText = "HTML 5 e CSS 3"
