@@ -40,7 +40,7 @@ function changePTFunc() {
    //FIM SEC 1
    //SEC 2
    textsSec2[0].innerText = "Eu e apenas eu";
-   textsSec2[1].innerHTML = "Me chamo Felipe Goncalves, tenho 25 anos, sou morador de Cachoeiro de Itapemirim, Espirito Santo, sim, terra do rei Roberto Carlos, e atualmente estou graduando em Análise e Desenvolvimento de Sistemas.<br><br>Tive meu primeiro contato com programação em 2018, e de lá pra cá venho me desenvolvendo minha carreira profissional na área de TI.";
+   textsSec2[1].innerHTML = " Me chamo Felipe Goncalves, tenho 25 anos, sou morador de Cachoeiro de Itapemirim, Espirito Santo, sim, terra do rei Roberto Carlos, e atualmente estou graduando em Análise e Desenvolvimento de Sistemas.<br><br>Tive meu primeiro contato com programação em 2018, mas só comecei meus estudos em 2020";
    textsSec2[2].innerText = "Objetivo";
    textsSec2[3].innerHTML = "Tenho como objetivo me tonar um grande profissional na área de front-end, e pensando nisso criei esse portifólio para demonstrar minhas habilidades através dos meus projetos.";
    //FIM SEC 2
