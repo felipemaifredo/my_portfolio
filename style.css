@@ -889,9 +889,12 @@ body {
         .right-box-content {
             margin-left: 0px;
         }
-
+/*--- SEC 2 ---- */
     #sec2 {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
         font-size: .8em;
     }
 
