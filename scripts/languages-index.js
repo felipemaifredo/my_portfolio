@@ -61,7 +61,7 @@ function changePTFunc() {
    // SEC 4
    textsSec4[0].innerText = "Ferramentas";
    textsSec4[1].innerText = "Ferramentas criadas com o intuito de treinar e desenvolver minhas habilidades";
-   textsSec4[2].innerText = "Em Breve";
+   textsSec4[2].innerText = "Acesse";
    textsSec4[3].innerText = "Trabalhos";
    textsSec4[4].innerText = "Meus trabalhos";
    textsSec4[5].innerText = "Em Breve";
@@ -128,7 +128,7 @@ function changeENFunc() {
    // SEC 4
    textsSec4[0].innerText = "Tolls";
    textsSec4[1].innerText = "Tools created to train and develop my skills";
-   textsSec4[2].innerText = "Comming Soon";
+   textsSec4[2].innerText = "Access";
    textsSec4[3].innerText = "Works";
    textsSec4[4].innerText = "My works";
    textsSec4[5].innerText = "Coming Soon";
