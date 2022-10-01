@@ -288,7 +288,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .card-box {
-    height: 400px;
+    height: 450px;
     width: 300px;
     background-color: var(--color-10);
     border-radius: 20px;
