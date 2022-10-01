@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style-tools.css">
+    <script src="scripts/scripts-tools.js" defer></script>
+    <script src="scripts/languages-tools.js" defer></script>
+    <link rel="shortcut icon" href="assets\imgs\logo.png" type="image/x-icon">
+    <title>Felipe Goncam | Tools</title>
+</head>
+<body data-theme="t-light">
+    <nav id="nav"><!--INICIO MENU-->
+        <div class="nav-box">
+            <div class="left-nav">
+                <img src="assets/imgs/logo.png" alt="Logo Felipe Goncalves constituido de um quadrado amarelo e um F preto">
+            </div>
+            <div class="center-nav">
+                <Button class="nav-btn" onclick="toggleMenu()">
+                    <span class="btn-nav-icon"></span></Button>
+                <ul class="center-menu-nav">
+                    <li class="menu-itens"><a href="index.html" class="menu-a">Home</a></li>
+                    <li class="menu-itens"><a href="index.html#sec2" class="menu-a">Sobre</a></li>
+                    <li class="menu-itens"><a href="index.html#sec3" class="menu-a">Habilidades</a></li>
+                    <li class="menu-itens inside-menu-nav" id=""><a href="#sec4" class="menu-a">Projetos</a></li>
+                        <ul class="inside-menu">
+                            <li class="inside-menu-item"><a href="tools.html" class="menu-a">Ferramentas</a></li>
+                            <li class="inside-menu-item"><a href="index.html#sec4" class="menu-a">Trabalhos</a></li>
+                            <li class="inside-menu-item"><a href="index.html#sec4" class="menu-a">E Se...?</a></li>
+                            <li class="inside-menu-item"><a href="index.html#sec4" class="menu-a">Blog</a></li>
+                        </ul>
+                    <li class="menu-itens"><a href="#sec5" class="menu-a">Contato</a></li>
+                </ul>
+            </div>
+            <div class="right-nav">
+                <div class="right-nav-language">
+                    <ul class="box-languages">
+                        <li><img src="assets/imgs/bra-icon.png" alt="" class="br option-language language-active"></li>
+                        <li><img src="assets/imgs/eua-icon.png" alt="" class="en option-language"></li>
+                    </ul>
+                </div>
+                <div class="right-nav-theme">
+                    <label class="swith">
+                        <div class="switch-wrapper">
+                            <input class="checkbox" type="checkbox" name="wath" onclick="changeTheme()"/>
+                            <span class="swith-b"></span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </nav><!--FIM MENU-->
+    <section id="sec1" class="sec">
+        <div class="card-box">
+            <div class="img-card">
+                <img src="/assets/imgs/Tools-imgs/clock-img.png" alt="">
+            </div>
+            <div class="tittle-card">
+                <h1 text-clock>Relógio Digital</h1>
+            </div>
+            <div class="text-card">
+                <p  text-clock>Esse Relógio Digital foi meu primeiro projeto com o objetivo de praticar meus conhecimentos nas funções de data e hora de <span class="js-alert">JavaScript</span> junto com <span class="html-alert">HTML 5</span> e <span class="css-alert">CSS 3</span></p>
+            </div>
+            <div class="buttons-card">
+                <a href="/tools_html/clock.html"text-clock><img src="/assets/imgs/access_icon.png" alt="">Ver Projeto</a>
+                <a href="#" text-clock><img src="/assets/imgs/github_icon.png" alt="">Ver GitHub</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

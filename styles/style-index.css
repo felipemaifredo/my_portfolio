@@ -96,11 +96,6 @@ body::-webkit-scrollbar-thumb {
     --time-2: all .2s; 
 }
 /*---- FIM TRANSITIONS ----*/
-/*---- SECTIONS ----*/
-body {
-    font-family: Arial, sans-serif;
-}
-/*---- FIM SECTIONS ----*/
 /*---- NAV ----*/
 #nav {
     position: fixed;
@@ -174,7 +169,7 @@ body {
         }
             .inside-menu-nav:hover ~ .inside-menu,
             .inside-menu:hover  {
-                left: 66.5%;
+                left: 68%;
                 transition: var(--time-2);
                 pointer-events: all;
                 opacity: 1;
@@ -267,14 +262,14 @@ body {
                 align-items: center;
                 border-radius: 40px;
                 background-color: var(--color-2);
-                background-image: url("assets/imgs/moon.svg");
+                background-image: url("/assets/imgs/moon.svg");
                 background-size: 20px;
                 background-repeat: no-repeat;
                 background-position: 34px;
                 transition: .4s all ease;
             }         
                 input:checked + .swith-b {
-                    background-image: url("assets/imgs/sun.svg");
+                    background-image: url("/assets/imgs/sun.svg");
                     background-position: 7px;
                 }
             .swith-b::after {
@@ -286,13 +281,13 @@ body {
                 left: 4px;
                 bottom: 4px;
                 border-radius: 50%;
-                background-image: url("assets/imgs/sun.svg");
+                background-image: url("/assets/imgs/sun.svg");
                 background-repeat: no-repeat;
                 transition: .4s all ease;
             }
                 input:checked + .swith-b::after {
                     transform: translate(26px);
-                    background-image: url("assets/imgs/moon.svg");
+                    background-image: url("/assets/imgs/moon.svg");
                     background-position: 3px;
                     background-size: 20px;
                 }
@@ -334,7 +329,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-image: url("assets/imgs/backgrounds/1.jpg");
+    background-image: url("/assets/imgs/backgrounds/1.jpg");
     background-position: center;
     background-size: cover;
     transition: all 3s;
