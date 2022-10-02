@@ -60,15 +60,10 @@ body {
     position: fixed;
     bottom: 5%;
     left: 50%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
     cursor: pointer;
-    padding: 10px;
-}
-
-.btn-copy {
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    transform: translate(-50%);
-    padding: 8px;
+    height: 40px;
+    width: 100px;
+    border-radius: 1px;
+    border: none;
 }

@@ -4,7 +4,6 @@ const changeEN = document.querySelector("img.en");
 const navItems = document.querySelectorAll("a.menu-a");
 const textsTool = document.querySelectorAll("[text-tool]");
 
-
 changePT.addEventListener("click", changePTFunc);
 changeEN.addEventListener("click", changeENFunc);
 
