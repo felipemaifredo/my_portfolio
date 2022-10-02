@@ -45,6 +45,11 @@ function changePTFunc() {
    textsTool[9].innerHTML = `Projeto em <span ${spanJS}, ${spanHTML} e ${spanCSS} para treinar o recurso de Return e manipulação de DOM`;
    textsTool[10].innerHTML = `${BTNlink} Ver Projeto`;
    textsTool[11].innerHTML = `${BTNgithub} Ver Github`;
+   // GENERATE COLOR
+   textsTool[12].innerText = "Gerador de Paleta de Cores";
+   textsTool[13].innerHTML = `Surgiu como uma evolução do projeto de gerador de cores usando ${spanJS}, ${spanHTML} and ${spanCSS} porém gerando código hexadecimal`;
+   textsTool[14].innerHTML = `${BTNlink} Ver Projeto`;
+   textsTool[15].innerHTML = `${BTNgithub} Ver Github`;
 };
 
 function changeENFunc() {
@@ -77,6 +82,11 @@ function changeENFunc() {
     textsTool[9].innerHTML = `Project made in ${spanJS}, ${spanHTML} and ${spanCSS} to train the Return feature and DOM manipulation`;
     textsTool[10].innerHTML = `${BTNlink} See Project`;
     textsTool[11].innerHTML = `${BTNgithub} See Github`;
+   // GENERATE COLOR
+    textsTool[12].innerText = "Color Palette Generator";
+    textsTool[13].innerHTML = `It emerged as an evolution of the color generator design using ${spanJS}, ${spanHTML} and ${spanCSS} but generating hex code`;
+    textsTool[14].innerHTML = `${BTNlink} See Project`;
+    textsTool[15].innerHTML = `${BTNgithub} See Github`;
 };
 
 function detectIdiom() {
