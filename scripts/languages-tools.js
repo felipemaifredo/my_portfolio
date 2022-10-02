@@ -59,7 +59,7 @@ function changeENFunc() {
     navItems[8].innerText = "Contact";
    //FIM NAV
    //CLOCK
-   textsClock[0].innerText = "Digital StopWatch";
+   textsClock[0].innerText = "Digital Clock";
    textsClock[1].innerHTML = 'This Digital Clock was my first project with the objective of practicing my knowledge in the date and time functions of <span class="js-alert">JavaScript</span> together with <span class="html-alert">HTML 5</span> and <span class="css-alert">CSS 3';
    textsClock[2].innerHTML = '<img src="/assets/imgs/access_icon.png"> See Project';
    textsClock[3].innerHTML = '<img src="/assets/imgs/github_icon.png"> See GitHub';
