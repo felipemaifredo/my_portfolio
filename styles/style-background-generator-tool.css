@@ -91,3 +91,9 @@ body {
 .btn:active {
     transform: scale(.9);
 }
+
+@media (max-width: 900px) { 
+    .clock {
+        transform: scale(.9);
+    }
+}

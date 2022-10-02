@@ -78,3 +78,9 @@ body {
     transition: all .2s;
     opacity: 100%;
 }
+
+@media (max-width: 900px) { 
+    .clock {
+        transform: scale(.9);
+    }
+}
