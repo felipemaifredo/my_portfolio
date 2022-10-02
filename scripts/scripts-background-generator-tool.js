@@ -22,7 +22,7 @@ function detectIdiom() {
 function change() {
     let cor = generateColor();
     document.querySelector("#body").style.backgroundColor = cor;
-    document.querySelector(".objParag").innerHTML = `Background Color: ${cor}`;
+    document.querySelector(".objParag").innerHTML = `${cor}`;
 }
 
 function generateColor() {
