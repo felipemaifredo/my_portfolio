@@ -27,20 +27,20 @@ function changePTFunc() {
    navItems[8].innerText = "Contato";
    //FIM NAV
    //CLOCK
-   textsClock[0].innerText = "Relógio Digital";
-   textsClock[1].innerHTML = 'Esse Relógio Digital foi meu primeiro projeto com o objetivo de praticar meus conhecimentos nas funções de data e hora de <span class="js-alert">JavaScript</span> junto com <span class="html-alert">HTML 5</span> e <span class="css-alert">CSS 3';
-   textsClock[2].innerHTML = `${BTNlink} Ver Projeto`
-   textsClock[3].innerHTML = `${BTNgithub} Ver Github`
+   textsTool[0].innerText = "Relógio Digital";
+   textsTool[1].innerHTML = 'Esse Relógio Digital foi meu primeiro projeto com o objetivo de praticar meus conhecimentos nas funções de data e hora de <span class="js-alert">JavaScript</span> junto com <span class="html-alert">HTML 5</span> e <span class="css-alert">CSS 3';
+   textsTool[2].innerHTML = `${BTNlink} Ver Projeto`
+   textsTool[3].innerHTML = `${BTNgithub} Ver Github`
    //
-   textsClock[4].innerText = "Cronômetro Digital";
-   textsClock[5].innerHTML = 'Cronômetro Digital usando <span class="js-alert">JavaScript</span> e estilizado <span class="html-alert">HTML 5</span> e <span class="css-alert">CSS 3</span>';
-   textsClock[6].innerHTML = `${BTNlink} Ver Projeto`
-   textsClock[7].innerHTML = `${BTNgithub} Ver Github`
+   textsTool[4].innerText = "Cronômetro Digital";
+   textsTool[5].innerHTML = 'Cronômetro Digital usando <span class="js-alert">JavaScript</span> e estilizado <span class="html-alert">HTML 5</span> e <span class="css-alert">CSS 3</span>';
+   textsTool[6].innerHTML = `${BTNlink} Ver Projeto`
+   textsTool[7].innerHTML = `${BTNgithub} Ver Github`
    //
-   textsClock[8].innerText = "Gerador de Cor";
-   textsClock[9].innerHTML = 'Projeto em <span class="js-alert">JavaScript</span>,<span class="html-alert">HTML 5</span> e <span class="css-alert">CSS 3</span> para treinar o recurso de Return e manipulação de DOM';
-   textsClock[10].innerHTML = `${BTNlink} Ver Projeto`
-   textsClock[11].innerHTML = `${BTNgithub} Ver Github`
+   textsTool[8].innerText = "Gerador de Cor";
+   textsTool[9].innerHTML = 'Projeto em <span class="js-alert">JavaScript</span>,<span class="html-alert">HTML 5</span> e <span class="css-alert">CSS 3</span> para treinar o recurso de Return e manipulação de DOM';
+   textsTool[10].innerHTML = `${BTNlink} Ver Projeto`
+   textsTool[11].innerHTML = `${BTNgithub} Ver Github`
 };
 
 function changeENFunc() {
