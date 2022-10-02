@@ -389,7 +389,6 @@ body::-webkit-scrollbar-thumb {
     color: var(--color-1);
     width: 150px;
     top: 101%;
-    
     opacity: 0;
     left: 120%;
     pointer-events: none;
@@ -483,6 +482,9 @@ body::-webkit-scrollbar-thumb {
     transform: scale(1.2);
 }
 /*--- FIM NAV ---*/
+#sec1 {
+    flex-direction: column;
+}
 }
 /*-- INICIO MOBILE MINIMO --*/
 @media (max-width: 410px) {
