@@ -39,16 +39,26 @@ function changePTFunc() {
    textsTool[5].innerHTML = `Cronômetro Digital usando ${spanJS} e estilizado ${spanHTML} e ${spanCSS}`;
    textsTool[6].innerHTML = `${BTNlink} Ver Projeto`;
    textsTool[7].innerHTML = `${BTNgithub} Ver Github`;
-   //
+   // GENERATE COLOR
    textsTool[8].innerText = "Gerador de Cor";
    textsTool[9].innerHTML = `Projeto em <span ${spanJS}, ${spanHTML} e ${spanCSS} para treinar o recurso de Return e manipulação de DOM`;
    textsTool[10].innerHTML = `${BTNlink} Ver Projeto`;
    textsTool[11].innerHTML = `${BTNgithub} Ver Github`;
-   // GENERATE COLOR
+   // GENERATE PALLETE  
    textsTool[12].innerText = "Gerador de Paleta de Cores";
    textsTool[13].innerHTML = `Surgiu como uma evolução do projeto de gerador de cores usando ${spanJS}, ${spanHTML} and ${spanCSS} porém gerando código hexadecimal`;
    textsTool[14].innerHTML = `${BTNlink} Ver Projeto`;
    textsTool[15].innerHTML = `${BTNgithub} Ver Github`;
+   // SIMPLE CALC
+   textsTool[16].innerText = "Calculadora Simples";
+   textsTool[17].innerHTML = `Projeto de Calculadora simples com ${spanJS}, ${spanHTML} e ${spanCSS}`;
+   textsTool[18].innerHTML = `${BTNlink} See Project`;
+   textsTool[19].innerHTML = `${BTNgithub} See Github`;
+    //  CALC
+    textsTool[20].innerText = "Calculator";
+    textsTool[21].innerHTML = `Uma evolução da Calculadora Simples usando ${spanJS}, ${spanHTML} and ${spanCSS} porém mais complexa e completa`;
+    textsTool[22].innerHTML = `${BTNlink} See Project`;
+    textsTool[23].innerHTML = `${BTNgithub} See Github`;
 };
 
 function changeENFunc() {
@@ -81,11 +91,21 @@ function changeENFunc() {
     textsTool[9].innerHTML = `Project made in ${spanJS}, ${spanHTML} and ${spanCSS} to train the Return feature and DOM manipulation`;
     textsTool[10].innerHTML = `${BTNlink} See Project`;
     textsTool[11].innerHTML = `${BTNgithub} See Github`;
-   // GENERATE COLOR
+   // GENERATE PALLETE
     textsTool[12].innerText = "Color Palette Generator";
     textsTool[13].innerHTML = `It emerged as an evolution of the color generator design using ${spanJS}, ${spanHTML} and ${spanCSS} but generating hex code`;
     textsTool[14].innerHTML = `${BTNlink} See Project`;
     textsTool[15].innerHTML = `${BTNgithub} See Github`;
+    // SIMPLE CALC
+    textsTool[16].innerText = "Simple Calculator";
+    textsTool[17].innerHTML = `Simple Calculator Design with ${spanJS}, ${spanHTML} and ${spanCSS}`;
+    textsTool[18].innerHTML = `${BTNlink} See Project`;
+    textsTool[19].innerHTML = `${BTNgithub} See Github`;
+    //  CALC
+    textsTool[20].innerText = "Calculator";
+    textsTool[21].innerHTML = `An evolution of the Simple Calculator using ${spanJS}, ${spanHTML} and ${spanCSS} but more complex and complete`;
+    textsTool[22].innerHTML = `${BTNlink} See Project`;
+    textsTool[23].innerHTML = `${BTNgithub} See Github`;
 };
 
 function detectIdiom() {

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/imgs/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/style-simple-calc-tool.css">
+    <script src="/scripts/scripts-simple-calc-tool.js" defer></script>
+    <title>Felipe Gomcam | Calculadora Simples</title>
+</head>
+<body>
+    <a href="/tools.html#sec1"><img src="/assets/imgs/arrow-icon.png" alt="" class="arrow-icon"></a>
+    <div class="calculadora">
+        <div class="p1">
+            <h1 text-sim-calc>Minha Calculadora</h1>
+        </div>
+        <div class="p2">
+            <label for="primeironumero" class="p2-item">
+                <h2 class="p2-text" text-sim-calc>Primeiro Numero</h2> 
+                <input type="number" id="n1">
+            </label>
+            <label for="segundonumero" class="p2-item">
+                <h2 class="p2-text" text-sim-calc>Segundo Numero</h2> 
+                <input type="number" id="n2">
+            </label>
+        </div>
+        <div class="p3">
+            <button onclick="soma()">+</button>
+            <button onclick="sub()">-</button>
+            <button onclick="divi()">/</button>
+            <button onclick="mult()">x</button>
+        </div>
+        <div class="resultado">
+            <p id="result" text-sim-calc>Resultado</p>
+        </div>
+    </div>
+</body>
+</html>
