@@ -388,7 +388,7 @@ body::-webkit-scrollbar-thumb {
         display: block;
         width: 100%;
         height: 75px;
-        background-color: red;
+        background-color: var(--color-1);
     }
 /*--- NAV ---*/
 #nav .center-menu-nav {
