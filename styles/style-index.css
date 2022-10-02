@@ -24,7 +24,6 @@ body[data-theme="t-light"] {
     --color-8: #e0e0e0;
     --color-9: #181818;
     --color-10: #e0e0e080;
-
 }
 body[data-theme="t-dark"] {
     --color-1: #000000;
@@ -606,13 +605,11 @@ body::-webkit-scrollbar-thumb {
         align-items: center;
         justify-content: center;
         border-radius: 20px;
-
-
     }
         .box-link-sec4 > div > a{
             padding: 15px 10px;
             color: var(--color-1);
-        }
+        }       
             .box-link-sec4  > a:hover {
                 transition: var(--time-2);
                 background-color: var(--color-7);
