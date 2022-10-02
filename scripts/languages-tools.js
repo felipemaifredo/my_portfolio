@@ -8,6 +8,9 @@ const textsClock = document.querySelectorAll("[text-tool]");
 changePT.addEventListener("click", changePTFunc)
 changeEN.addEventListener("click", changeENFunc)
 
+const BTNaccess = '<img src="/assets/imgs/access_icon.png"> Ver Projeto';
+const BTNgithub = '<img src="/assets/imgs/github_icon.png">Ver GitHub';
+
 function changePTFunc() {
    changeEN.classList.remove("language-active");
    changePT.classList.add("language-active")
@@ -26,12 +29,18 @@ function changePTFunc() {
    //CLOCK
    textsClock[0].innerText = "Relógio Digital";
    textsClock[1].innerHTML = 'Esse Relógio Digital foi meu primeiro projeto com o objetivo de praticar meus conhecimentos nas funções de data e hora de <span class="js-alert">JavaScript</span> junto com <span class="html-alert">HTML 5</span> e <span class="css-alert">CSS 3';
-   textsClock[2].innerHTML = '<img src="/assets/imgs/access_icon.png"> Ver Projeto';
-   textsClock[3].innerHTML = '<img src="/assets/imgs/github_icon.png">Ver GitHub';
+   textsClock[2].innerHTML = BTNaccess
+   textsClock[3].innerHTML = BTNgithub
+   //
    textsClock[4].innerText = "Cronômetro Digital";
-   textsClock[5].innerHTML = 'Cronômetro Digital usando <span class="js-alert">JavaScript</span> e estilizado <span class="html-alert">HTML 5</span> e <span class="css-alert">CSS 3';
-   textsClock[6].innerHTML = '<img src="/assets/imgs/access_icon.png"> Ver Projeto';
-   textsClock[7].innerHTML = '<img src="/assets/imgs/github_icon.png">Ver GitHub';
+   textsClock[5].innerHTML = 'Cronômetro Digital usando <span class="js-alert">JavaScript</span> e estilizado <span class="html-alert">HTML 5</span> e <span class="css-alert">CSS 3</span>';
+   textsClock[6].innerHTML = BTNaccess
+   textsClock[7].innerHTML = BTNgithub
+   //
+   textsClock[8].innerText = "Gerador de Cor";
+   textsClock[9].innerHTML = 'Projeto em <span class="js-alert">JavaScript</span>,<span class="html-alert">HTML 5</span> e <span class="css-alert">CSS 3</span> para treinar o recurso de Return e manipulação de DOM';
+   textsClock[10].innerHTML = BTNaccess
+   textsClock[11].innerHTML = BTNgithub
 };
 
 function changeENFunc() {
@@ -55,9 +64,14 @@ function changeENFunc() {
    textsClock[2].innerHTML = '<img src="/assets/imgs/access_icon.png"> See Project';
    textsClock[3].innerHTML = '<img src="/assets/imgs/github_icon.png"> See GitHub';
    textsClock[4].innerText = "Digital StopWatch";
-   textsClock[5].innerHTML = 'Digital Stopwatch using <span class="js-alert">JavaScript</span> together with <span class="html-alert">HTML 5</span> and <span class="css-alert">CSS 3';
+   textsClock[5].innerHTML = 'Digital Stopwatch using <span class="js-alert">JavaScript</span> together with <span class="html-alert">HTML 5</span> and <span class="css-alert">CSS 3</span>';
    textsClock[6].innerHTML = '<img src="/assets/imgs/access_icon.png"> See Project';
    textsClock[7].innerHTML = '<img src="/assets/imgs/github_icon.png"> See GitHub';
+   //
+   textsClock[8].innerText = "Color Generator";
+   textsClock[9].innerHTML = 'Project made in <span class="js-alert">JavaScript</span>,<span class="html-alert">HTML 5</span> and <span class="css-alert">CSS 3</span> to train the Return feature and DOM manipulation';
+   textsClock[10].innerHTML = '<img src="/assets/imgs/access_icon.png"> Ver Projeto';
+   textsClock[11].innerHTML = '<img src="/assets/imgs/github_icon.png">Ver GitHub';
 };
 
 function detectIdiom() {
