@@ -5,8 +5,8 @@ const navItems = document.querySelectorAll("a.menu-a");
 const textsTool = document.querySelectorAll("[text-tool]");
 
 
-changePT.addEventListener("click", changePTFunc)
-changeEN.addEventListener("click", changeENFunc)
+changePT.addEventListener("click", changePTFunc);
+changeEN.addEventListener("click", changeENFunc);
 
 const BTNlink = '<img src="/assets/imgs/access_icon.png">';
 const BTNgithub = '<img src="/assets/imgs/github_icon.png">';
@@ -17,8 +17,8 @@ const spanCSS = '<span class="css-alert">CSS 3</span>';
 
 function changePTFunc() {
    changeEN.classList.remove("language-active");
-   changePT.classList.add("language-active")
-   localStorage.setItem("idiom", "br")
+   changePT.classList.add("language-active");
+   localStorage.setItem("idiom", "br");
    //NAV
    navItems[0].innerText = "Home";
    navItems[1].innerText = "Sobre";
@@ -33,18 +33,18 @@ function changePTFunc() {
    //CLOCK
    textsTool[0].innerText = "Relógio Digital";
    textsTool[1].innerHTML = `Esse Relógio Digital foi meu primeiro projeto com o objetivo de praticar meus conhecimentos nas funções de data e hora de ${spanJS} junto com ${spanHTML} e ${spanCSS}`;
-   textsTool[2].innerHTML = `${BTNlink} Ver Projeto`
-   textsTool[3].innerHTML = `${BTNgithub} Ver Github`
+   textsTool[2].innerHTML = `${BTNlink} Ver Projeto`;
+   textsTool[3].innerHTML = `${BTNgithub} Ver Github`;
    //
    textsTool[4].innerText = "Cronômetro Digital";
    textsTool[5].innerHTML = `Cronômetro Digital usando ${spanJS} e estilizado ${spanHTML} e ${spanCSS}`;
-   textsTool[6].innerHTML = `${BTNlink} Ver Projeto`
-   textsTool[7].innerHTML = `${BTNgithub} Ver Github`
+   textsTool[6].innerHTML = `${BTNlink} Ver Projeto`;
+   textsTool[7].innerHTML = `${BTNgithub} Ver Github`;
    //
    textsTool[8].innerText = "Gerador de Cor";
    textsTool[9].innerHTML = `Projeto em <span ${spanJS}, ${spanHTML} e ${spanCSS} para treinar o recurso de Return e manipulação de DOM`;
-   textsTool[10].innerHTML = `${BTNlink} Ver Projeto`
-   textsTool[11].innerHTML = `${BTNgithub} Ver Github`
+   textsTool[10].innerHTML = `${BTNlink} Ver Projeto`;
+   textsTool[11].innerHTML = `${BTNgithub} Ver Github`;
 };
 
 function changeENFunc() {
