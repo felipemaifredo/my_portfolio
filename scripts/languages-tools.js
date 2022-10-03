@@ -55,7 +55,7 @@ function changePTFunc() {
    textsTool[18].innerHTML = `${BTNlink} See Project`;
    textsTool[19].innerHTML = `${BTNgithub} See Github`;
     //  CALC
-    textsTool[20].innerText = "Calculator";
+    textsTool[20].innerText = "Calculadora";
     textsTool[21].innerHTML = `Uma evolução da Calculadora Simples usando ${spanJS}, ${spanHTML} and ${spanCSS} porém mais complexa e completa`;
     textsTool[22].innerHTML = `${BTNlink} See Project`;
     textsTool[23].innerHTML = `${BTNgithub} See Github`;
