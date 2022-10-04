@@ -60,7 +60,7 @@ function changePTFunc() {
         textsTool[22].innerHTML = `${BTNlink} See Project`;
         textsTool[23].innerHTML = `${BTNgithub} See Github`;
     //  CALC
-        textsTool[24].innerText = "Calculadora";
+        textsTool[24].innerText = "Calculadora de IMC";
         textsTool[25].innerHTML = `Criada para treinar a lógica de programação em ${spanJS} e manipulação de DOM ${spanHTML} e ${spanCSS}`;
         textsTool[26].innerHTML = `${BTNlink} See Project`;
         textsTool[27].innerHTML = `${BTNgithub} See Github`;
