@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/imgs/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/style-imc-tool.css">
+    <script src="/scripts/scripts-imc-tool.js" defer></script>
+    <title>Felipe Gomcam | IMC Calculate</title>
+</head>
+<body>
+    <a href="/tools.html#sec1"><img src="/assets/imgs/arrow-icon.png" alt="" class="arrow-icon"></a>
+    <div class="card">
+        <h1 class="titulo" text-imc>Calculadora de IMC</h1>
+        <div class="resto">
+           <div class="resto2">
+                <div class="lado1">
+                    <label for="Nome" class="labels" text-imc>Nome:</label>
+                    <label for="Altura" class="labels" text-imc>Altura:</label>
+                    <label for="Peso" class="labels" text-imc>Peso:</label>
+                </div>
+                <div class="lado2"> 
+                    <input type="text" id="Nome" class="inputs">
+                    <input type="number" max="3" min="0" id="Altura" class="inputs">
+                    <input type="text" id="Peso" class="inputs"> 
+                </div>
+            </div>   
+            <button class="btn" onclick="calcular()" text-imc>Calcular</button>
+            <div>
+                <div class="resultado">
+                    <p id="resultado"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
