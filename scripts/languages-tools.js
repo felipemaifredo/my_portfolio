@@ -52,23 +52,23 @@ function changePTFunc() {
    // SIMPLE CALC
         textsTool[16].innerText = "Calculadora Simples";
         textsTool[17].innerHTML = `Projeto de Calculadora simples com ${spanJS}, ${spanHTML} e ${spanCSS}`;
-        textsTool[18].innerHTML = `${BTNlink} See Project`;
-        textsTool[19].innerHTML = `${BTNgithub} See Github`;
+        textsTool[18].innerHTML = `${BTNlink} Ver Projeto`;
+        textsTool[19].innerHTML = `${BTNgithub} Ver Github`;
     //  CALC
         textsTool[20].innerText = "Calculadora";
         textsTool[21].innerHTML = `Uma evolução da Calculadora Simples usando ${spanJS}, ${spanHTML} e ${spanCSS} porém mais complexa e completa`;
-        textsTool[22].innerHTML = `${BTNlink} See Project`;
-        textsTool[23].innerHTML = `${BTNgithub} See Github`;
+        textsTool[22].innerHTML = `${BTNlink} Ver Projeto`;
+        textsTool[23].innerHTML = `${BTNgithub} Ver Github`;
     //  CALC
         textsTool[24].innerText = "Calculadora de IMC";
         textsTool[25].innerHTML = `Criada para treinar a lógica de programação em ${spanJS} e manipulação de DOM ${spanHTML} e ${spanCSS}`;
-        textsTool[26].innerHTML = `${BTNlink} See Project`;
-        textsTool[27].innerHTML = `${BTNgithub} See Github`;
+        textsTool[26].innerHTML = `${BTNlink} Ver Projeto`;
+        textsTool[27].innerHTML = `${BTNgithub} Ver Github`;
      //  REGRA DE 3
         textsTool[28].innerText = "Regra de 3";
         textsTool[29].innerHTML = `Criada para treinar a lógica de programação em ${spanJS} e manipulação de DOM ${spanHTML} e ${spanCSS}`;
-        textsTool[30].innerHTML = `${BTNlink} See Project`;
-        textsTool[31].innerHTML = `${BTNgithub} See Github`;
+        textsTool[30].innerHTML = `${BTNlink} Ver Projeto`;
+        textsTool[31].innerHTML = `${BTNgithub} Ver Github`;
 };
 
 function changeENFunc() {
