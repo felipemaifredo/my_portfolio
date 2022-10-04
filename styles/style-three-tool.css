@@ -1,0 +1,121 @@
+/* */
+.arrow-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 50px;
+    opacity: 50%;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.arrow-icon:hover {
+    transition: all .2s;
+    opacity: 100%;
+}
+/* */
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(-45deg, #ff3d5a, #eaf27e, #3b8c88, #ffb969) no-repeat;
+    background-size: 1000% 1000%;
+    animation: gradient 10s ease alternate infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+@keyframes gradient {
+    from {
+        background-position: 0 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
+}
+
+.card-box {
+    height: 250px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+
+}
+
+.card-box > div {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-box > div > div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colum1, .colum2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+input {
+    height: 20px;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+}
+
+label {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    color: black;
+    background: linear-gradient(-45deg, #ff3d5a, #eaf27e, #3b8c88, #ffb969) no-repeat;
+    background-size: 250% 250%;
+    animation: gradient 5s ease alternate infinite;
+    border: none;
+    cursor: pointer;
+}
+
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
+    background-color: white;
+    padding: 6px;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+.divafter {
+    position: relative;
+}
+
+.divafter::after {
+    position: absolute;
+    content: "=";
+    transform: translate(-50%, -50%);
+    top: 63%;
+    right: -25px;
+    font-size: 40px;
+    font-weight: bolder;
+}

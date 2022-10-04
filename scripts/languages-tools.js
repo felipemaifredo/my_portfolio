@@ -64,6 +64,11 @@ function changePTFunc() {
         textsTool[25].innerHTML = `Criada para treinar a lógica de programação em ${spanJS} e manipulação de DOM ${spanHTML} e ${spanCSS}`;
         textsTool[26].innerHTML = `${BTNlink} See Project`;
         textsTool[27].innerHTML = `${BTNgithub} See Github`;
+     //  REGRA DE 3
+        textsTool[28].innerText = "Regra de 3";
+        textsTool[29].innerHTML = `Criada para treinar a lógica de programação em ${spanJS} e manipulação de DOM ${spanHTML} e ${spanCSS}`;
+        textsTool[30].innerHTML = `${BTNlink} See Project`;
+        textsTool[31].innerHTML = `${BTNgithub} See Github`;
 };
 
 function changeENFunc() {
@@ -116,6 +121,11 @@ function changeENFunc() {
         textsTool[25].innerHTML = `Created to train programming logic in ${spanJS} and DOM manipulation ${spanHTML} and ${spanCSS}`;
         textsTool[26].innerHTML = `${BTNlink} See Project`;
         textsTool[27].innerHTML = `${BTNgithub} See Github`;
+     // REGRA DE 3
+        textsTool[28].innerText = "rule of 3";
+        textsTool[29].innerHTML = `Created to train programming logic in ${spanJS} and DOM manipulation ${spanHTML} and ${spanCSS}`;
+        textsTool[30].innerHTML = `${BTNlink} See Project`;
+        textsTool[31].innerHTML = `${BTNgithub} See Github`;
 };
 
 function detectIdiom() {
