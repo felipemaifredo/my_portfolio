@@ -60,10 +60,10 @@ function changePTFunc() {
         textsTool[22].innerHTML = `${BTNlink} See Project`;
         textsTool[23].innerHTML = `${BTNgithub} See Github`;
     //  CALC
-        textsTool[20].innerText = "Calculadora";
-        textsTool[21].innerHTML = `Criada para treinar a lógica de programação em ${spanJS} e manipulação de DOM ${spanHTML} e ${spanCSS}`;
-        textsTool[22].innerHTML = `${BTNlink} See Project`;
-        textsTool[23].innerHTML = `${BTNgithub} See Github`;
+        textsTool[24].innerText = "Calculadora";
+        textsTool[25].innerHTML = `Criada para treinar a lógica de programação em ${spanJS} e manipulação de DOM ${spanHTML} e ${spanCSS}`;
+        textsTool[26].innerHTML = `${BTNlink} See Project`;
+        textsTool[27].innerHTML = `${BTNgithub} See Github`;
 };
 
 function changeENFunc() {
