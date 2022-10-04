@@ -51,12 +51,16 @@ function changePTFunc() {
    textsSec3[3].innerText = "Responsividade";
    textsSec3[6].innerText = "Manipulação de Dom";
    textsSec3[9].innerHTML = "Controle e Versionamento<br>de Códigos";
-   textsSec3[11].innerText = "Pré-Processador CSS";
-   textsSec3[13].innerText = "Estudando";
+   textsSec3[10].innerHTML = "Bancos de Dados";
+   textsSec3[11].innerText = "MySQL e MongoDB";
+   textsSec3[12].innerText = "Estudando";
+   textsSec3[14].innerText = "React e Angular";
    textsSec3[15].innerText = "Estudando";
-   textsSec3[17].innerText = "Estudando";
-   textsSec3[18].innerText = "E Mais";
-   textsSec3[19].innerText = "Em Breve";
+   textsSec3[17].innerText = "NodeJS e Java";
+   textsSec3[18].innerText = "Estudando";
+   textsSec3[19].innerText = "Outras Tecnologias";
+   textsSec3[23].innerText = "E Mais";
+   textsSec3[24].innerText = "Em Breve";
    // FIM SEC 3
    // SEC 4
    textsSec4[0].innerText = "Ferramentas";
@@ -118,12 +122,17 @@ function changeENFunc() {
    textsSec3[3].innerText = "Responsivity"
    textsSec3[6].innerText = "Manipulation of Dom";
    textsSec3[9].innerHTML = "Control and Versioning<br>of Codes";
-   textsSec3[11].innerText = "Pre-Processor CSS";
-   textsSec3[13].innerText = "Studying";
+   textsSec3[10].innerHTML = "Databases";
+   textsSec3[11].innerText = "MySQL and MongoDB";
+   textsSec3[12].innerText = "Studying";
+   textsSec3[14].innerText = "React and Angular";
    textsSec3[15].innerText = "Studying";
-   textsSec3[17].innerText = "Studying";
-   textsSec3[18].innerText = "And More";
-   textsSec3[19].innerText = "Comming Soon";
+   textsSec3[17].innerText = "NodeJS and Java";
+   textsSec3[18].innerText = "Studying";
+   textsSec3[19].innerText = "Other Technologies";
+   textsSec3[23].innerText = "And More";
+   textsSec3[24].innerText = "Comming Soon";
+
    // FIM SEC 3
    // SEC 4
    textsSec4[0].innerText = "Tolls";

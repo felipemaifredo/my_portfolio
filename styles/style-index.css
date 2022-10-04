@@ -515,6 +515,18 @@ body::-webkit-scrollbar-thumb {
     content: "";
     animation: treeBullets 3s infinite;
 }
+
+.other-tec {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.other-tec > img {
+    height: 30px;
+}
 /*--- FIM SEC 3 ---*/
 /*--- SEC 4 ---*/
 #sec4 {
