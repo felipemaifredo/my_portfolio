@@ -50,17 +50,18 @@ function changePTFunc() {
    textsSec3[2].innerText = "Acessibilidade";
    textsSec3[3].innerText = "Responsividade";
    textsSec3[6].innerText = "Manipulação de Dom";
-   textsSec3[9].innerHTML = "Controle e Versionamento<br>de Códigos";
-   textsSec3[10].innerHTML = "Bancos de Dados";
-   textsSec3[11].innerText = "MySQL e MongoDB";
-   textsSec3[12].innerText = "Estudando";
-   textsSec3[14].innerText = "React e Angular";
-   textsSec3[15].innerText = "Estudando";
-   textsSec3[17].innerText = "NodeJS e Java";
-   textsSec3[18].innerText = "Estudando";
-   textsSec3[19].innerText = "Outras Tecnologias";
-   textsSec3[23].innerText = "E Mais";
-   textsSec3[24].innerText = "Em Breve";
+   textsSec3[8].innerHTML = "Noções em <br>TypeScript";
+   textsSec3[10].innerHTML = "Controle e Versionamento<br>de Códigos";
+   textsSec3[12].innerHTML = "Banco de Dados";
+   textsSec3[13].innerText = "Estudando";
+   textsSec3[14].innerHTML = "Noções em  <br>MySQL";
+   textsSec3[17].innerText = "Estudando";
+   textsSec3[18].innerHTML = "Noções em <br>Angular";
+   textsSec3[22].innerHTML = "Noções em  <br>JAVA";
+   textsSec3[23].innerHTML = "Outras Tecnologias<br>Conhecidas";
+   textsSec3[26].innerHTML = "E Mais";
+   textsSec3[27].innerHTML = "Em Breve";
+
    // FIM SEC 3
    // SEC 4
    textsSec4[0].innerText = "Ferramentas";
@@ -115,47 +116,46 @@ function changeENFunc() {
     textsSec2[2].innerText = "Objective";
     textsSec2[3].innerHTML = "I aim to become a great full Stack developer professional, and with that in mind I created this portfolio to demonstrate my skills through my projects.";
     //FIM SEC 2
-    // SEC 3
-   textsSec3[0].innerText = "HTML 5 e CSS 3"
-   textsSec3[1].innerText = "Semantics"
-   textsSec3[2].innerText = "Accessibility"
-   textsSec3[3].innerText = "Responsivity"
-   textsSec3[6].innerText = "Manipulation of Dom";
-   textsSec3[9].innerHTML = "Control and Versioning<br>of Codes";
-   textsSec3[10].innerHTML = "Databases";
-   textsSec3[11].innerText = "MySQL and MongoDB";
-   textsSec3[12].innerText = "Studying";
-   textsSec3[14].innerText = "React and Angular";
-   textsSec3[15].innerText = "Studying";
-   textsSec3[17].innerText = "NodeJS and Java";
-   textsSec3[18].innerText = "Studying";
-   textsSec3[19].innerText = "Other Technologies";
-   textsSec3[23].innerText = "And More";
-   textsSec3[24].innerText = "Comming Soon";
-
+     // SEC 3
+        textsSec3[0].innerText = "HTML 5 e CSS 3";
+        textsSec3[1].innerText = "Semantics";
+        textsSec3[2].innerText = "Accessibility";
+        textsSec3[3].innerText = "Responsivity";
+        textsSec3[6].innerText = "Manipulation of Dom";
+        textsSec3[8].innerHTML = "Notions in <br>TypeScript";
+        textsSec3[10].innerHTML = "Control and Versioning<br>of Codes";
+        textsSec3[12].innerHTML = "Databases";
+        textsSec3[13].innerText = "Studying";
+        textsSec3[14].innerHTML = "Notions in  <br>MySQL";
+        textsSec3[17].innerText = "Studying";
+        textsSec3[18].innerHTML = "Notions in <br>Angular";
+        textsSec3[22].innerHTML = "Notions in <br>JAVA";
+        textsSec3[23].innerHTML = "Other Technologies";
+        textsSec3[26].innerHTML = "And More";
+        textsSec3[27].innerHTML = "Comming Soon";
    // FIM SEC 3
    // SEC 4
-   textsSec4[0].innerText = "Tolls";
-   textsSec4[1].innerText = "Tools created to train and develop my skills";
-   textsSec4[2].innerHTML = 'Access';
-   textsSec4[3].innerText = "Works";
-   textsSec4[4].innerText = "My works";
-   textsSec4[5].innerText = "Coming Soon";
-   textsSec4[6].innerHTML = "What if...?";
-   textsSec4[7].innerHTML = "What if such a large company's website was made by me?<br>Here I explore that possibility.";
-   textsSec4[8].innerText = "Coming Soon";
-   textsSec4[9].innerText = "Blog";
-   textsSec4[10].innerText = "References and maybe relevant updates about my day and my opinions";
-   textsSec4[11].innerText = "Coming Soon";
+        textsSec4[0].innerText = "Tolls";
+        textsSec4[1].innerText = "Tools created to train and develop my skills";
+        textsSec4[2].innerHTML = 'Access';
+        textsSec4[3].innerText = "Works";
+        textsSec4[4].innerText = "My works";
+        textsSec4[5].innerText = "Coming Soon";
+        textsSec4[6].innerHTML = "What if...?";
+        textsSec4[7].innerHTML = "What if such a large company's website was made by me?<br>Here I explore that possibility.";
+        textsSec4[8].innerText = "Coming Soon";
+        textsSec4[9].innerText = "Blog";
+        textsSec4[10].innerText = "References and maybe relevant updates about my day and my opinions";
+        textsSec4[11].innerText = "Coming Soon";
     // FIM SEC 4
     // SEC 5
-    textsSec5[0].innerText = "Thanks for getting here!";
-    textsSec5[1].innerText = "send me a message below";
-    textsSec5[2].innerText = "that I get in touch with you";
-    textsSec5[3].innerText = "Send";
-    input1Sec5.placeholder="Name";
-    input2Sec5.placeholder="Email or WhatsApp";
-    input3Sec5.placeholder="Subject";
+        textsSec5[0].innerText = "Thanks for getting here!";
+        textsSec5[1].innerText = "send me a message below";
+        textsSec5[2].innerText = "that I get in touch with you";
+        textsSec5[3].innerText = "Send";
+        input1Sec5.placeholder="Name";
+        input2Sec5.placeholder="Email or WhatsApp";
+        input3Sec5.placeholder="Subject";
 };
 
 function detectIdiom() {
