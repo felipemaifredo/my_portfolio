@@ -50,17 +50,14 @@ function changePTFunc() {
    textsSec3[2].innerText = "Acessibilidade";
    textsSec3[3].innerText = "Responsividade";
    textsSec3[6].innerText = "Manipulação de Dom";
-   textsSec3[8].innerHTML = "Noções em <br>TypeScript";
-   textsSec3[10].innerHTML = "Controle e Versionamento<br>de Códigos";
-   textsSec3[12].innerHTML = "Banco de Dados";
-   textsSec3[13].innerText = "Estudando";
-   textsSec3[14].innerHTML = "Noções em  <br>MySQL";
-   textsSec3[17].innerText = "Estudando";
-   textsSec3[18].innerHTML = "Noções em <br>Angular";
-   textsSec3[22].innerHTML = "Noções em  <br>JAVA";
-   textsSec3[23].innerHTML = "Outras Tecnologias<br>Conhecidas";
-   textsSec3[26].innerHTML = "E Mais";
-   textsSec3[27].innerHTML = "Em Breve";
+   textsSec3[9].innerHTML = "Controle e Versionamento<br>de Códigos";
+   textsSec3[11].innerHTML = "Banco de Dados";
+   textsSec3[12].innerText = "Estudando";
+   textsSec3[15].innerText = "Estudando";
+   textsSec3[18].innerText = "Estudando";
+   textsSec3[19].innerHTML = "Outras Tecnologias<br>Conhecidas";
+   textsSec3[22].innerHTML = "E Mais";
+   textsSec3[23].innerHTML = "Em Breve";
 
    // FIM SEC 3
    // SEC 4
@@ -122,17 +119,14 @@ function changeENFunc() {
         textsSec3[2].innerText = "Accessibility";
         textsSec3[3].innerText = "Responsivity";
         textsSec3[6].innerText = "Manipulation of Dom";
-        textsSec3[8].innerHTML = "Notions in <br>TypeScript";
-        textsSec3[10].innerHTML = "Control and Versioning<br>of Codes";
-        textsSec3[12].innerHTML = "Databases";
-        textsSec3[13].innerText = "Studying";
-        textsSec3[14].innerHTML = "Notions in  <br>MySQL";
-        textsSec3[17].innerText = "Studying";
-        textsSec3[18].innerHTML = "Notions in <br>Angular";
-        textsSec3[22].innerHTML = "Notions in <br>JAVA";
-        textsSec3[23].innerHTML = "Other Technologies";
-        textsSec3[26].innerHTML = "And More";
-        textsSec3[27].innerHTML = "Comming Soon";
+        textsSec3[9].innerHTML = "Control and Versioning<br>of Codes";
+        textsSec3[11].innerHTML = "Databases";
+        textsSec3[12].innerText = "Studying";
+        textsSec3[15].innerText = "Studying";
+        textsSec3[18].innerText = "Studying";
+        textsSec3[19].innerHTML = "Other Technologies";
+        textsSec3[22].innerHTML = "And More";
+        textsSec3[23].innerHTML = "Comming Soon";
    // FIM SEC 3
    // SEC 4
         textsSec4[0].innerText = "Tolls";
