@@ -80,7 +80,6 @@ function msgEnviada() {
         formBtn.innerHTML = "Enviar";
     }, 5000);
 };
-//  FAZER TEMPORIZADOR PARA LIMPAR OS CAMPOS PERMITIR UMA NOVA MENSAGEM
 // FIM FORM SEND
 // MENU MOBILE
 const itemsNav = document.querySelectorAll("a.menu-a");

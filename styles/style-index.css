@@ -754,8 +754,6 @@ body::-webkit-scrollbar-thumb {
             height: 90px;
             transition: var(--time-2);
         }
-
-
     #sec5 a {
         color: black;
     }

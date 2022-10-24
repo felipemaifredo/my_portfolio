@@ -29,51 +29,21 @@ function changePTFunc() {
         navItems[7].innerText = "Blog";
         navItems[8].innerText = "Contato";
    //FIM NAV
-   //CLOCK
-        textsTool[0].innerText = "Relógio Digital";
-        textsTool[1].innerHTML = `Esse Relógio Digital foi meu primeiro projeto com o objetivo de praticar meus conhecimentos nas funções de data e hora de ${spanJS} junto com ${spanHTML} e ${spanCSS}`;
+   // GENERATE PALLETE  
+        textsTool[0].innerText = "Gerador de Paleta de Cores";
+        textsTool[1].innerHTML = `Surgiu como uma evolução do projeto de gerador de cores usando ${spanJS}, ${spanHTML} and ${spanCSS} porém gerando código hexadecimal`;
         textsTool[2].innerHTML = `${BTNlink} Ver Projeto`;
         textsTool[3].innerHTML = `${BTNgithub} Ver Github`;
-   //
-        textsTool[4].innerText = "Cronômetro Digital";
-        textsTool[5].innerHTML = `Cronômetro Digital usando ${spanJS} e estilizado ${spanHTML} e ${spanCSS}`;
+    //  CALC
+        textsTool[4].innerText = "Calculadora";
+        textsTool[5].innerHTML = `Uma evolução da Calculadora Simples usando ${spanJS}, ${spanHTML} e ${spanCSS} porém mais complexa e completa`;
         textsTool[6].innerHTML = `${BTNlink} Ver Projeto`;
         textsTool[7].innerHTML = `${BTNgithub} Ver Github`;
-   // GENERATE COLOR
-        textsTool[8].innerText = "Gerador de Cor";
-        textsTool[9].innerHTML = `Projeto em <span ${spanJS}, ${spanHTML} e ${spanCSS} para treinar o recurso de Return e manipulação de DOM`;
+     //  REGRA DE 3
+        textsTool[8].innerText = "Regra de 3";
+        textsTool[9].innerHTML = `Criada para treinar a lógica de programação em ${spanJS} e manipulação de DOM ${spanHTML} e ${spanCSS}`;
         textsTool[10].innerHTML = `${BTNlink} Ver Projeto`;
         textsTool[11].innerHTML = `${BTNgithub} Ver Github`;
-   // GENERATE PALLETE  
-        textsTool[12].innerText = "Gerador de Paleta de Cores";
-        textsTool[13].innerHTML = `Surgiu como uma evolução do projeto de gerador de cores usando ${spanJS}, ${spanHTML} and ${spanCSS} porém gerando código hexadecimal`;
-        textsTool[14].innerHTML = `${BTNlink} Ver Projeto`;
-        textsTool[15].innerHTML = `${BTNgithub} Ver Github`;
-   // SIMPLE CALC
-        textsTool[16].innerText = "Calculadora Simples";
-        textsTool[17].innerHTML = `Projeto de Calculadora simples com ${spanJS}, ${spanHTML} e ${spanCSS}`;
-        textsTool[18].innerHTML = `${BTNlink} Ver Projeto`;
-        textsTool[19].innerHTML = `${BTNgithub} Ver Github`;
-    //  CALC
-        textsTool[20].innerText = "Calculadora";
-        textsTool[21].innerHTML = `Uma evolução da Calculadora Simples usando ${spanJS}, ${spanHTML} e ${spanCSS} porém mais complexa e completa`;
-        textsTool[22].innerHTML = `${BTNlink} Ver Projeto`;
-        textsTool[23].innerHTML = `${BTNgithub} Ver Github`;
-    //  CALC
-        textsTool[24].innerText = "Calculadora de IMC";
-        textsTool[25].innerHTML = `Criada para treinar a lógica de programação em ${spanJS} e manipulação de DOM ${spanHTML} e ${spanCSS}`;
-        textsTool[26].innerHTML = `${BTNlink} Ver Projeto`;
-        textsTool[27].innerHTML = `${BTNgithub} Ver Github`;
-     //  REGRA DE 3
-        textsTool[28].innerText = "Regra de 3";
-        textsTool[29].innerHTML = `Criada para treinar a lógica de programação em ${spanJS} e manipulação de DOM ${spanHTML} e ${spanCSS}`;
-        textsTool[30].innerHTML = `${BTNlink} Ver Projeto`;
-        textsTool[31].innerHTML = `${BTNgithub} Ver Github`;
-     //  REGRA DE 3
-        textsTool[32].innerText = "Semáforo";
-        textsTool[33].innerHTML = `Criada para treinar a lógica de programação em ${spanJS} e manipulação de DOM ${spanHTML} e ${spanCSS}`;
-        textsTool[34].innerHTML = `${BTNlink} Ver Projeto`;
-        textsTool[35].innerHTML = `${BTNgithub} Ver Github`;
 };
 
 function changeENFunc() {
@@ -91,51 +61,21 @@ function changeENFunc() {
         navItems[7].innerText = "Blog";
         navItems[8].innerText = "Contact";
    //FIM NAV
-   //CLOCK
-        textsTool[0].innerText = "Digital Clock";
-        textsTool[1].innerHTML = `This Digital Clock was my first project with the objective of practicing my knowledge in the date and time functions of ${spanJS} together with${spanHTML} and ${spanCSS}`;
+   // GENERATE PALLETE
+        textsTool[0].innerText = "Color Palette Generator";
+        textsTool[1].innerHTML = `It emerged as an evolution of the color generator design using ${spanJS}, ${spanHTML} and ${spanCSS} but generating hex code`;
         textsTool[2].innerHTML = `${BTNlink} See Project`;
         textsTool[3].innerHTML = `${BTNgithub} See Github`;
-   // STOPWATCH
-        textsTool[4].innerText = "Digital StopWatch";
-        textsTool[5].innerHTML = `Digital Stopwatch using ${spanJS} together with ${spanHTML} and ${spanCSS}`;
+    //  CALC
+        textsTool[4].innerText = "Calculator";
+        textsTool[5].innerHTML = `An evolution of the Simple Calculator using ${spanJS}, ${spanHTML} and ${spanCSS} but more complex and complete`;
         textsTool[6].innerHTML = `${BTNlink} See Project`;
         textsTool[7].innerHTML = `${BTNgithub} See Github`;
-   // GENERATE COLOR
-        textsTool[8].innerText = "Color Generator";
-        textsTool[9].innerHTML = `Project made in ${spanJS}, ${spanHTML} and ${spanCSS} to train the Return feature and DOM manipulation`;
+     // REGRA DE 3
+        textsTool[8].innerText = "rule of 3";
+        textsTool[9].innerHTML = `Created to train programming logic in ${spanJS} and DOM manipulation ${spanHTML} and ${spanCSS}`;
         textsTool[10].innerHTML = `${BTNlink} See Project`;
         textsTool[11].innerHTML = `${BTNgithub} See Github`;
-   // GENERATE PALLETE
-        textsTool[12].innerText = "Color Palette Generator";
-        textsTool[13].innerHTML = `It emerged as an evolution of the color generator design using ${spanJS}, ${spanHTML} and ${spanCSS} but generating hex code`;
-        textsTool[14].innerHTML = `${BTNlink} See Project`;
-        textsTool[15].innerHTML = `${BTNgithub} See Github`;
-    // SIMPLE CALC
-        textsTool[16].innerText = "Simple Calculator";
-        textsTool[17].innerHTML = `Simple Calculator Design with ${spanJS}, ${spanHTML} and ${spanCSS}`;
-        textsTool[18].innerHTML = `${BTNlink} See Project`;
-        textsTool[19].innerHTML = `${BTNgithub} See Github`;
-    //  CALC
-        textsTool[20].innerText = "Calculator";
-        textsTool[21].innerHTML = `An evolution of the Simple Calculator using ${spanJS}, ${spanHTML} and ${spanCSS} but more complex and complete`;
-        textsTool[22].innerHTML = `${BTNlink} See Project`;
-        textsTool[23].innerHTML = `${BTNgithub} See Github`;
-    //  CALC imc
-        textsTool[24].innerText = "IMC Calculator";
-        textsTool[25].innerHTML = `Created to train programming logic in ${spanJS} and DOM manipulation ${spanHTML} and ${spanCSS}`;
-        textsTool[26].innerHTML = `${BTNlink} See Project`;
-        textsTool[27].innerHTML = `${BTNgithub} See Github`;
-     // REGRA DE 3
-        textsTool[28].innerText = "rule of 3";
-        textsTool[29].innerHTML = `Created to train programming logic in ${spanJS} and DOM manipulation ${spanHTML} and ${spanCSS}`;
-        textsTool[30].innerHTML = `${BTNlink} See Project`;
-        textsTool[31].innerHTML = `${BTNgithub} See Github`;
-     // Semaphore
-        textsTool[32].innerText = "Semaphore";
-        textsTool[33].innerHTML = `Created to train programming logic in ${spanJS} and DOM manipulation ${spanHTML} and ${spanCSS}`;
-        textsTool[34].innerHTML = `${BTNlink} See Project`;
-        textsTool[35].innerHTML = `${BTNgithub} See Github`;
 };
 
 function detectIdiom() {
