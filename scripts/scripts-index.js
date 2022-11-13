@@ -51,7 +51,7 @@ documentForm.addEventListener("submit", (event) => {
     let assuntoV = assunto.value;
 
     if ( nameV == "" || whatsEmailV == "" || assuntoV == "" ) {
-        formBtn.innerHTML = "Preecha os campos acima"
+        formBtn.innerHTML = "Preecha os campos acima";
         setTimeout( () => {
             formBtn.innerHTML = "Enviar";
         }, 5000);
