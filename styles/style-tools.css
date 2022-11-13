@@ -226,14 +226,14 @@ body::-webkit-scrollbar-thumb {
                 align-items: center;
                 border-radius: 40px;
                 background-color: var(--color-2);
-                background-image: url("/assets/imgs/moon.svg");
+                background-image: url("assets/imgs/moon.svg");
                 background-size: 20px;
                 background-repeat: no-repeat;
                 background-position: 34px;
                 transition: .4s all ease;
             }         
                 input:checked + .swith-b {
-                    background-image: url("/assets/imgs/sun.svg");
+                    background-image: url("assets/imgs/sun.svg");
                     background-position: 7px;
                 }
             .swith-b::after {
