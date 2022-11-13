@@ -7,9 +7,6 @@ const textsTool = document.querySelectorAll("[text-tool]");
 changePT.addEventListener("click", changePTFunc);
 changeEN.addEventListener("click", changeENFunc);
 
-const BTNlink = '<img src="assets/imgs/access_icon.png">';
-const BTNgithub = '<img src="assets/imgs/github_icon.png">';
-
 const spanJS = '<span class="js-alert">JavaScript</span>';
 const spanHTML = '<span class="html-alert">HTML 5</span>';
 const spanCSS = '<span class="css-alert">CSS 3</span>';
