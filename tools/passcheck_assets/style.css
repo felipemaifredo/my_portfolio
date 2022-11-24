@@ -86,7 +86,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-image: url("/tools/passcheck/img-visibility.png");
+    background-image: url("/tools/passcheck_assets/img-visibility.png");
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: 4px 4px;
@@ -105,7 +105,7 @@ li {
 }
 
 .toggleBtnOff {
-    background-image: url("/tools/passcheck/img-visibility-off.png") !important;
+    background-image: url("/tools/passcheck_assets/img-visibility-off.png") !important;
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: 4px 4px;
@@ -129,7 +129,7 @@ li {
     width: 20px;
     height: 20px;
     display: inline-flex;
-    background-image: url("/tools/passcheck/circle.png");
+    background-image: url("/tools/passcheck_assets/circle.png");
     background-repeat: no-repeat;
     background-size: 15px;
     background-position: 4px 6px;
@@ -141,6 +141,6 @@ li {
 }
 
 .valid::before {
-    background-image: url("/tools/passcheck/valid.png") !important;
+    background-image: url("/tools/passcheck_assets/valid.png") !important;
    
 }
