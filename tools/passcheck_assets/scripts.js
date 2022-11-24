@@ -68,8 +68,8 @@ function detectIdiom() {
 
 function changePTFunc() {
     pswrd.placeholder = "Senha";
-    lowerCase.innerText = "Letras Minusculas";
-    upperCase.innerText = "Letras Maisculas";
+    lowerCase.innerText = "Letras Minúsculas";
+    upperCase.innerText = "Letras Maiúsculas";
     numberCase.innerText = "Números";
     specialCase.innerText = "Caracteres Especiais";
     eightCase.innerText = "Mínimo de 8 Digitos";
