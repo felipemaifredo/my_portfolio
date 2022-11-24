@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/tools/passcheck/style.css">
+    <script src="/tools/passcheck/scripts.js" defer></script>
+    <title>Validador de Senhas</title>
+</head>
+    <body>
+        <a href="/tools"><img src="/assets/imgs/arrow-icon.png" class="arrow-icon"></a>
+        <div class="box">
+            <div class="inputBox">
+                <input type="password" id="pswrd" placeholder="Password"onkeyup="checkpassword(this.value)">
+                <span id="toggleBtn"></span>
+            </div>
+            <div class="validation">
+                <ul>
+                    <li id="lower">Lowercase</li>
+                    <li id="upper">Uppercase</li>
+                    <li id="number">Number</li>
+                    <li id="special">Special</li>
+                    <li id="eight">8 Characteres</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
