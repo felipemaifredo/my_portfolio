@@ -13,24 +13,24 @@
         <div class="card">
             <div class="inputs">
                 <div class="slider-wrapper">
-                    <label for="box-sup-esq">Canto Superior Esquerdo:</label>
+                    <label for="box-sup-esq" text-box-form-generator>Canto Superior Esquerdo:</label>
                     <input type="range" id="box-sup-esq" max="50" min="0" value="0"/>
                 </div>
                 <div class="slider-wrapper">
-                    <label for="box-inf-esq">Canto Inferior Esquerdo:</label>
-                    <input type="range" id="box-inf-esq" max="50" min="0" value="0"/>
-                </div>
-                <div class="slider-wrapper">
-                    <label for="box-sup-dir">Canto Superior Direito:</label>
+                    <label for="box-sup-dir" text-box-form-generator>Canto Superior Direito:</label>
                     <input type="range" id="box-sup-dir" max="50" min="0" value="0"/>
                 </div>
                 <div class="slider-wrapper">
-                    <label for="box-inf-dir">Canto Inferior Direito:</label>
+                    <label for="box-inf-dir" text-box-form-generator>Canto Inferior Direito:</label>
                     <input type="range" id="box-inf-dir" max="50" min="0" value="0"/>
+                </div>
+                <div class="slider-wrapper">
+                    <label for="box-inf-esq" text-box-form-generator>Canto Inferior Esquerdo:</label>
+                    <input type="range" id="box-inf-esq" max="50" min="0" value="0"/>
                 </div>
                 <div class="boxresult">
                     <p class="resultElement">border-radius: 0% 0% 0% 0%;</p>
-                    <button onclick="copy()">Copiar</button>
+                    <button onclick="copy()" text-box-form-generator>Copiar</button>
                 </div>
             </div>
             <div class="box" id="box"></div>

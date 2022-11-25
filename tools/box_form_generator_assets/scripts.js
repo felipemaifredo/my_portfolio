@@ -9,6 +9,8 @@ const infEsq = document.querySelector("input#box-inf-esq");
 const supDir = document.querySelector("input#box-sup-dir");
 const infDir = document.querySelector("input#box-inf-dir");
 
+const labelTexts = document.querySelectorAll("[text-box-form-generator]");
+
 function generateBorder() {
     
     let supEsqV = supEsq.value;
@@ -48,15 +50,18 @@ function detectIdiom() {
 } detectIdiom();
 
 function changePTFunc() {
-    infDir.innerText = 'Canto Inferior Direito:'
-    supDir.innerText = 'Canto Superior Direito:'
-    infEsq.innerText = 'Canto Inferior Esquerdo:'
-    supEsq.innerText = 'Canto Superior Esquerdo:'      
+    labelTexts[0].innerText = 'Canto Superior Esquerdo:';
+    labelTexts[1].innerText = 'Canto Superior Direito:';
+    labelTexts[2].innerText = 'Canto Inferior Direito:';
+    labelTexts[3].innerText = 'Canto Inferior Esquerdo:';
+    labelTexts[4].innerText = 'Copiar';
  };
  
  function changeENFunc() {
-    infDir.innerText = 'Upper Left Corner:'
-    supDir.innerText = 'Upper right Corner:'
-    infEsq.innerText = 'Bottom left corner:'
-    supEsq.innerText = 'Bottom right corner:'
+    labelTexts[0].innerText = 'Upper Left Corner:';
+    labelTexts[1].innerText = 'Upper Right Corner:';
+    labelTexts[2].innerText = 'Bottom Right Corner:';
+    labelTexts[3].innerText = 'Bottom Left Corner:';
+    labelTexts[4].innerText = 'Copy';
+
 }
