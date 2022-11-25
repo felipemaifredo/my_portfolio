@@ -55,6 +55,7 @@ body {
     background-color: white;
     height: 50%;
     width: 80%;
+    max-height: 500px;
     max-width: 600px;
     display: flex;
     align-items: center;
