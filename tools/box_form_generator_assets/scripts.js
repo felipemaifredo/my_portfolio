@@ -37,8 +37,16 @@ function copy() {
     textarea.select();
     document.execCommand("copy");
     textarea.remove();
-    alert("O texto foi copiado")
+    copytextSucess();
 }
+
+function  copytextSucess() {
+    document.body.classList.add("copy-text-sucess");
+    setTimeout( () => {
+        document.body.classList.remove("copy-text-sucess");
+    }, 3000);
+}
+
 /* -------- */
 
 function detectIdiom() {
@@ -55,6 +63,8 @@ function changePTFunc() {
     labelTexts[2].innerText = 'Canto Inferior Direito:';
     labelTexts[3].innerText = 'Canto Inferior Esquerdo:';
     labelTexts[4].innerText = 'Copiar';
+    labelTexts[5].innerText = 'Texto Copiado!';
+
  };
  
  function changeENFunc() {
@@ -63,5 +73,5 @@ function changePTFunc() {
     labelTexts[2].innerText = 'Bottom Right Corner:';
     labelTexts[3].innerText = 'Bottom Left Corner:';
     labelTexts[4].innerText = 'Copy';
-
+    labelTexts[5].innerText = 'Copied Text!';
 }

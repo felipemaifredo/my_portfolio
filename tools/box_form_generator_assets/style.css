@@ -86,3 +86,22 @@ body {
     background-color: red;
     color: white;
 }
+
+.msgbox {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: white;
+    height: 50px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.copy-text-sucess .msgbox {
+    opacity: 1;
+    pointer-events: none;
+}
