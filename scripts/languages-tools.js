@@ -44,9 +44,14 @@ function changePTFunc() {
      // PASSCHECK
         textsTool[12].innerText = "Verificador de Senha";
         textsTool[13].innerHTML = `Criada para treinar a lógica de programação em ${spanJS} e manipulação de DOM ${spanHTML} e ${spanCSS} e validação de dados enviados`;
-        textsTool[14].innerHTML = `See Project`;
-        textsTool[15].innerHTML = `See Github`;
-};
+        textsTool[14].innerHTML = `Ver Projeto`;
+        textsTool[15].innerHTML = `Ver Github`;
+     // Box Form
+        textsTool[16].innerText = "Gerador de Borda";
+        textsTool[17].innerHTML = `Criada para treinar a lógica de programação em ${spanJS} e manipulação de DOM ${spanHTML} e ${spanCSS} e validação de dados enviados`;
+        textsTool[18].innerHTML = `Ver Projeto`;
+        textsTool[19].innerHTML = `Ver Github`;
+    };
 
 function changeENFunc() {
     changePT.classList.remove("language-active");
@@ -83,6 +88,11 @@ function changeENFunc() {
         textsTool[13].innerHTML = `Created to train programming logic in ${spanJS} and DOM manipulation ${spanHTML} and ${spanCSS} and validation of submitted data`;
         textsTool[14].innerHTML = `See Project`;
         textsTool[15].innerHTML = `See Github`;
+    // Box Form
+        textsTool[16].innerText = "Box Form Generator";
+        textsTool[17].innerHTML = `Created to train programming logic in ${spanJS} and DOM manipulation ${spanHTML} and ${spanCSS} and validation of submitted data`;
+        textsTool[18].innerHTML = `See Project`;
+        textsTool[19].innerHTML = `See Github`;
 };
 
 function detectIdiom() {
