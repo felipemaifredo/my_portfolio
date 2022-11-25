@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="box_form_generator_assets/style.css">
+    <script src="box_form_generator_assets/scripts.js" defer></script>
+    <title>Border Generator</title>
+</head>
+    <body>
+        <a href="/tools"><img src="/assets/imgs/arrow-icon.png" class="arrow-icon"></a>
+        <div class="card">
+            <div class="inputs">
+                <div class="slider-wrapper">
+                    <label for="box-sup-esq">Canto Superior Esquerdo:</label>
+                    <input type="range" id="box-sup-esq" max="50" min="0" value="0"/>
+                </div>
+                <div class="slider-wrapper">
+                    <label for="box-inf-esq">Canto Inferior Esquerdo:</label>
+                    <input type="range" id="box-inf-esq" max="50" min="0" value="0"/>
+                </div>
+                <div class="slider-wrapper">
+                    <label for="box-sup-dir">Canto Superior Direito:</label>
+                    <input type="range" id="box-sup-dir" max="50" min="0" value="0"/>
+                </div>
+                <div class="slider-wrapper">
+                    <label for="box-inf-dir">Canto Inferior Direito:</label>
+                    <input type="range" id="box-inf-dir" max="50" min="0" value="0"/>
+                </div>
+                <div class="boxresult">
+                    <p class="resultElement">border-radius: 0% 0% 0% 0%;</p>
+                    <button onclick="copy()">Copiar</button>
+                </div>
+            </div>
+            <div class="box" id="box"></div>
+        </div>
+    </body>
+</html>
