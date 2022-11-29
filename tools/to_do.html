@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="to_do_assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="to_do_assets/scripts.js" defer></script>
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <div class="card-content">
+        <div class="content-top">
+            <input type="text" class="input-name" id="input-Name-Task" placeholder="Adicionar uma nova tarefa" textTD>
+            <input type="time" class="input-time" id="input-Time-Task">
+            <button id="btn-Add-Task" onclick="addTask()">
+                <i class="fa fa-plus"></i>
+            </button>
+        </div>
+        <div class="tasks-box">
+        </div>
+    </div>
+    <a href="/tools"><img src="/assets/imgs/arrow-icon.png" class="arrow-icon"></a>
+</body>
+</html>

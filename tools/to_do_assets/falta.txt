@@ -1,0 +1,3 @@
+falta função de editar tarefa
+
+e check de prazo setando amarelo para quase lá e vermelho para atrasado
