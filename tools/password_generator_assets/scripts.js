@@ -111,11 +111,9 @@ lenEl.oninput = ( ()=>  {
     let lenElV = lenEl.value;
     lengthResult.innerText = lenElV;
 })
-
-/*----------*/
+/*----*/
 
 const textsPG = document.querySelectorAll("[text-pg]")
-var msgcopy = "Texto Copiado!"
 
 function detectIdiom() {
     if (localStorage.idiom == "br") {
@@ -132,7 +130,10 @@ function changePTFunc() {
     textsPG[3].innerText = "Minúsculas";
     textsPG[4].innerText = "Números";
     textsPG[5].innerText = "Símbolos";
-    textsPG[6].innerText = "Texto Copiado!";
+    textsPG[6].innerText = "Gerar Senha";
+    textsPG[7].innerText = "Copiar Senha";
+    textsPG[8].innerText = "Texto Copiado!";
+
  };
  
  function changeENFunc() {
@@ -142,6 +143,7 @@ function changePTFunc() {
     textsPG[3].innerText = "Lowercase";
     textsPG[4].innerText = "Numbers";
     textsPG[5].innerText = "Symbols";
-    textsPG[6].innerText = "Copied Text!";
-
+    textsPG[6].innerText = "Generate Password";
+    textsPG[7].innerText = "Copy Password";
+    textsPG[8].innerText = "Copied Text!";
 }
