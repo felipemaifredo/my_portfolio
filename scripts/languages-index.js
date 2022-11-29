@@ -58,7 +58,6 @@ function changePTFunc() {
    textsSec3[19].innerHTML = "Outras Tecnologias<br>Conhecidas";
    textsSec3[22].innerHTML = "E Mais";
    textsSec3[23].innerHTML = "Em Breve";
-
    // FIM SEC 3
    // SEC 4
    textsSec4[0].innerText = "Ferramentas";
