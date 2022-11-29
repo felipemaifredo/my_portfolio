@@ -33,16 +33,15 @@ function changePTFunc() {
    // SEC 1
    textsSec1[0].innerText = "Olá";
    textsSec1[1].innerText = "Sou o Felipe,";
-   textsSec1[2].innerText = "Desenvolvedor Full Stack";
+   textsSec1[2].innerText = "Desenvolvedor Front-End";
    textsSec1[3].innerText = "Portfólio e Trabalhos";
-   textsSec1[4].innerText = "de Felipe Goncam,";
-   textsSec1[5].innerText = "um Zé Mané Qualquer!";
+   textsSec1[4].innerText = "de Felipe Goncam.";
    //FIM SEC 1
    //SEC 2
    textsSec2[0].innerText = "Eu e apenas eu";
    textsSec2[1].innerHTML = " Me chamo Felipe Goncalves, tenho 25 anos, sou morador de Cachoeiro de Itapemirim, Espirito Santo, sim, terra do rei Roberto Carlos, e atualmente estou graduando em Análise e Desenvolvimento de Sistemas.<br><br>Tive meu primeiro contato com programação em 2018, mas só comecei meus estudos em 2020";
    textsSec2[2].innerText = "Objetivo";
-   textsSec2[3].innerHTML = "Tenho como objetivo me tonar um grande desenvolvedor full stack, e pensando nisso criei esse portifólio para demonstrar minhas habilidades através dos meus projetos.";
+   textsSec2[3].innerHTML = "Tenho como objetivo me tonar um grande desenvolvedor front-end, e pensando nisso criei esse portifólio para demonstrar minhas habilidades através dos meus projetos.";
    //FIM SEC 2
    // SEC 3
    textsSec3[0].innerText = "HTML 5 e CSS 3";
@@ -51,7 +50,8 @@ function changePTFunc() {
    textsSec3[3].innerText = "Responsividade";
    textsSec3[6].innerText = "Manipulação de Dom";
    textsSec3[9].innerHTML = "Controle e Versionamento<br>de Códigos";
-   textsSec3[11].innerHTML = "Banco de Dados";
+   textsSec3[01].innerHTML = "Banco de Dados";
+   textsSec3[11].innerHTML = "MongoDB e MySql";
    textsSec3[12].innerText = "Estudando";
    textsSec3[15].innerText = "Estudando";
    textsSec3[18].innerText = "Estudando";
@@ -102,25 +102,25 @@ function changeENFunc() {
    // SEC 1
    textsSec1[0].innerText = "Hi";
    textsSec1[1].innerText = "I'm Felipe,";
-   textsSec1[2].innerText = "Full Stack Developer";
+   textsSec1[2].innerText = "Front-End Developer";
    textsSec1[3].innerText = "Portfolio and Works ";
-   textsSec1[4].innerText = "Of Felipe Gongam,";
-   textsSec1[5].innerText = "Any any any any any!";
+   textsSec1[4].innerText = "Of Felipe Gongam.";
    //FIM SEC 1
     //SEC 2
     textsSec2[0].innerText = "Me and just me";
     textsSec2[1].innerHTML = "My name is Felipe Goncalves, I'm 25 years old, I live in Cachoeiro de Itapemirim, Espirito Santo, yes, land of King Roberto Carlos, and I'm currently majoring in Systems Analysis and Development.<br><br>I had my first contact with programming in 2018, but I only started my studies in 2020";
     textsSec2[2].innerText = "Objective";
-    textsSec2[3].innerHTML = "I aim to become a great full Stack developer professional, and with that in mind I created this portfolio to demonstrate my skills through my projects.";
+    textsSec2[3].innerHTML = "I aim to become a great front-end developer professional, and with that in mind I created this portfolio to demonstrate my skills through my projects.";
     //FIM SEC 2
      // SEC 3
-        textsSec3[0].innerText = "HTML 5 e CSS 3";
+        textsSec3[0].innerText = "HTML 5 and CSS 3";
         textsSec3[1].innerText = "Semantics";
         textsSec3[2].innerText = "Accessibility";
         textsSec3[3].innerText = "Responsivity";
         textsSec3[6].innerText = "Manipulation of Dom";
         textsSec3[9].innerHTML = "Control and Versioning<br>of Codes";
-        textsSec3[11].innerHTML = "Databases";
+        textsSec3[10].innerHTML = "Databases";
+        textsSec3[11].innerHTML = "MongoDB and MySql";
         textsSec3[12].innerText = "Studying";
         textsSec3[15].innerText = "Studying";
         textsSec3[18].innerText = "Studying";
