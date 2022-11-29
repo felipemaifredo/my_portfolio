@@ -84,8 +84,8 @@ function check(IdTask) {
 }
 /*----------*/
 
-const textsTD = document.querySelector["[textTD]"]
-var msgIdiom = 'Adicionar uma nova tarefa';
+const textsTD = document.querySelector("[textTD]");
+var msgIdiom = 'Preencha o nome da Tarefa';
 var msgConfir = 'Tem certeza que deseja excluir a tarefa?'
 
 function detectIdiom() {
@@ -97,14 +97,13 @@ function detectIdiom() {
 } detectIdiom();
 
 function changePTFunc() {
-    textsTD[0].placeholder='Adicionar uma nova tarefa';
-    msgIdiom = "Preencha o nome da Tarefa";
+    textsTD.placeholder = 'Adicionar uma nova tarefa';
+    msgIdiom = 'Preencha o nome da Tarefa//';
     msgConfir = 'Tem certeza que deseja excluir a tarefa?';
  };
  
  function changeENFunc() {
-    textsTD[0].placeholder='Add a new task';
-    msgIdiom = "Fill in the Task name";
+    textsTD.placeholder = 'Add a new task';
+    msgIdiom = 'Fill in the Task name';
     msgConfir = 'Are you sure you want to delete the task?';
-
 }
