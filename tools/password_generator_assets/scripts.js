@@ -96,7 +96,14 @@ function copy() {
     textarea.select();
     document.execCommand("copy");
     textarea.remove();
-    alert(msgcopy)
+    copytextSucess()
+}
+
+function  copytextSucess() {
+    document.body.classList.add("copy-text-sucess");
+    setTimeout( () => {
+        document.body.classList.remove("copy-text-sucess");
+    }, 3000);
 }
 
 /*-----*/
@@ -119,21 +126,22 @@ function detectIdiom() {
 } detectIdiom();
 
 function changePTFunc() {
-    msgcopy = "Texto Copiado!"
     textsPG[0].innerText = "Gere sua Senha";
     textsPG[1].innerText = "Tamanho da Senha";
     textsPG[2].innerText = "Maiúsculas";
     textsPG[3].innerText = "Minúsculas";
     textsPG[4].innerText = "Números";
     textsPG[5].innerText = "Símbolos";
+    textsPG[6].innerText = "Texto Copiado!";
  };
  
  function changeENFunc() {
-    msgcopy = "Copied Text!"
     textsPG[0].innerText = "Generate Your Password";
     textsPG[1].innerText = "Password Lenght";
     textsPG[2].innerText = "Uppercade";
     textsPG[3].innerText = "Lowercase";
     textsPG[4].innerText = "Numbers";
     textsPG[5].innerText = "Symbols";
+    textsPG[6].innerText = "Copied Text!";
+
 }
