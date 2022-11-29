@@ -88,6 +88,14 @@ const textsTD = document.querySelector["[textTD]"]
 var msgIdiom = 'Adicionar uma nova tarefa';
 var msgConfir = 'Tem certeza que deseja excluir a tarefa?'
 
+function detectIdiom() {
+    if (localStorage.idiom == "br") {
+        changePTFunc();
+    } else if (localStorage.idiom == "en") {
+        changeENFunc();
+    };
+} detectIdiom();
+
 function changePTFunc() {
     textsTD[0].placeholder='Adicionar uma nova tarefa';
     msgIdiom = "Preencha o nome da Tarefa";
