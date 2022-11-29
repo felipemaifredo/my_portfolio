@@ -96,7 +96,7 @@ function copy() {
     textarea.select();
     document.execCommand("copy");
     textarea.remove();
-    alert("O texto foi copiado")
+    alert(msgcopy)
 }
 
 /*-----*/
@@ -108,6 +108,7 @@ lenEl.oninput = ( ()=>  {
 /*----------*/
 
 const textsPG = document.querySelectorAll("[text-pg]")
+var msgcopy = "Texto Copiado!"
 
 function detectIdiom() {
     if (localStorage.idiom == "br") {
@@ -118,6 +119,7 @@ function detectIdiom() {
 } detectIdiom();
 
 function changePTFunc() {
+    msgcopy = "Texto Copiado!"
     textsPG[0].innerText = "Gere sua Senha";
     textsPG[1].innerText = "Tamanho da Senha";
     textsPG[2].innerText = "Maiúsculas";
@@ -127,6 +129,7 @@ function changePTFunc() {
  };
  
  function changeENFunc() {
+    msgcopy = "Copied Text!"
     textsPG[0].innerText = "Generate Your Password";
     textsPG[1].innerText = "Password Lenght";
     textsPG[2].innerText = "Uppercade";
