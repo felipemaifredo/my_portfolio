@@ -102,7 +102,7 @@ to {
 
 .card-content {
     background-color: #2b2a2a;
-    width: 90%;
+    width: 85%;
     max-width: 550px;
     height: fit-content;
     padding: 50px 20px;
@@ -120,6 +120,7 @@ to {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 10px;
 }
 
 .content-top .input-name, .content-top .input-time, .content-top button {
