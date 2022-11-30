@@ -23,7 +23,7 @@ body[data-theme="t-light"] {
     --color-7: #3b8c88;
     --color-8: #e0e0e0;
     --color-9: #181818;
-    --color-10: #e0e0e080;
+    --color-10: #dbdbdb5e;
 }
 body[data-theme="t-dark"] {
     --color-1: #000000;
@@ -35,7 +35,7 @@ body[data-theme="t-dark"] {
     --color-7: #1f4d4a;
     --color-8: #181818;
     --color-9: #e0e0e0;
-    --color-10: #18181880;
+    --color-10: #131313;
 }
 /*---- FIM COLORS -----*/
 /*---- SCROLL -----*/
@@ -532,7 +532,7 @@ body::-webkit-scrollbar-thumb {
 #sec4 {
     height: 100vh;
     width: 100vw;
-    background-color: var(--color-8);
+    background-color: var(--color-10);
     display: flex;
     align-items: center;
     justify-content: center;
