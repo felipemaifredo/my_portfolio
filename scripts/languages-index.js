@@ -50,7 +50,7 @@ function changePTFunc() {
    textsSec3[3].innerText = "Responsividade";
    textsSec3[6].innerText = "Manipulação de Dom";
    textsSec3[9].innerHTML = "Controle e Versionamento<br>de Códigos";
-   textsSec3[01].innerHTML = "Banco de Dados";
+   textsSec3[10].innerHTML = "Banco de Dados";
    textsSec3[11].innerHTML = "MongoDB e MySql";
    textsSec3[12].innerText = "Estudando";
    textsSec3[15].innerText = "Estudando";
