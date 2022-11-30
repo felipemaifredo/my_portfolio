@@ -98,7 +98,7 @@ function detectIdiom() {
 
 function changePTFunc() {
     textsTD.placeholder = 'Adicionar uma nova tarefa';
-    msgIdiom = 'Preencha o nome da Tarefa//';
+    msgIdiom = 'Preencha o nome da Tarefa';
     msgConfir = 'Tem certeza que deseja excluir a tarefa?';
  };
  
