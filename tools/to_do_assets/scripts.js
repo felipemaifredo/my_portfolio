@@ -106,4 +106,5 @@ function changePTFunc() {
     textsTD.placeholder = 'Add a new task';
     msgIdiom = 'Fill in the Task name';
     msgConfir = 'Are you sure you want to delete the task?';
-}
+};
+

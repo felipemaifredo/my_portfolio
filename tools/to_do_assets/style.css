@@ -42,6 +42,64 @@ to {
 }
 /* */
 
+.input-localstorage-box {
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    background-color: #2b2a2a;
+    height: 40px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    border: 1px solid red;
+    display: none;
+}
+
+.input-localstorage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.switch-wrapper {
+    height: 15px;
+    width: 30px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+.switch-wrapper > input {
+    display: none;
+}
+
+.swith-b {
+    position: absolute;
+    height: 10.5px;
+    width: 10.5px;
+    background-color: #1f1e1e;
+    top: 3px;
+    left: 5px;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+.switch-wrapper > input:checked + .swith-b {
+    transform: translateX(10px);
+}
+
+.switch-wrapper > input:checked + .input-localstorage-box {
+    border: 1px solid green;
+}
+
+
+/* */
+
 .card-content {
     background-color: #2b2a2a;
     width: 550px;
