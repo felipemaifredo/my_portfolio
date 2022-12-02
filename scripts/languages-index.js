@@ -65,7 +65,7 @@ function changePTFunc() {
    textsSec4[2].innerHTML = 'Acesse';
    textsSec4[3].innerText = "Trabalhos";
    textsSec4[4].innerText = "Meus trabalhos";
-   textsSec4[5].innerText = "Em Breve";
+   textsSec4[5].innerText = "Acesse";
    textsSec4[6].innerHTML = "E Se...?";
    textsSec4[7].innerHTML = "E Se tal site de tal grande empresa fosse feita por mim?<br>Aqui eu exploro essa possibilidade.";
    textsSec4[8].innerText = "Em Breve";
@@ -133,7 +133,7 @@ function changeENFunc() {
         textsSec4[2].innerHTML = 'Access';
         textsSec4[3].innerText = "Works";
         textsSec4[4].innerText = "My works";
-        textsSec4[5].innerText = "Coming Soon";
+        textsSec4[5].innerText = "Access";
         textsSec4[6].innerHTML = "What if...?";
         textsSec4[7].innerHTML = "What if such a large company's website was made by me?<br>Here I explore that possibility.";
         textsSec4[8].innerText = "Coming Soon";
