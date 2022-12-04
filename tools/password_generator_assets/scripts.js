@@ -139,7 +139,7 @@ function changePTFunc() {
  function changeENFunc() {
     textsPG[0].innerText = "Generate Your Password";
     textsPG[1].innerText = "Password Lenght";
-    textsPG[2].innerText = "Uppercade";
+    textsPG[2].innerText = "Uppercase";
     textsPG[3].innerText = "Lowercase";
     textsPG[4].innerText = "Numbers";
     textsPG[5].innerText = "Symbols";

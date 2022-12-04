@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --cor-1 : #5074f3;
+}
+
+body {
+    background-color: var(--cor-1);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 25em;
+}
+
+.card {
+    width: 100%;
+    padding: 4em 0;
+    background-color: white;
+    border-radius: 0.5em;
+}
+
+.card .img-container {
+    height: 11.25em;
+    width: 11.25em;
+    display: block;
+    margin: -8.75em auto 0 auto;
+    background-color: white;
+    border: 8px solid var(--cor-1);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.img-container img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.container button {
+    display: block;
+    font-size: 1.2em;
+    width: 90%;
+    margin: 2em auto 0 auto;
+    padding: 1.1em 0;
+    border-radius: 0.3em;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    color: #000341;
+    cursor: pointer;
+}
+
+.details {
+   text-align: center;
+}
+
+.card h2 {
+    margin-top: 1.8em;
+    font-weight: 600;
+    color: #000341;
+}
+
+.card h3, .card h4 {
+    font-size: 1em;
+    letter-spacing: .02em;
+    margin-top: .5em;
+    font-weight: 300;
+    color: #90919e;
+}
+
+
+.msg-sIngles-box {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    background-color: white;
+    padding: 10px;
+    width: 260px;
+    font-weight: bold;
+    display: none;
+}
+
+/* */
+.arrow-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 50px;
+    opacity: 50%;
+    cursor: pointer;
+    transition: all 1s;
+    z-index: 10;
+}
+
+.arrow-icon:hover {
+    transition: all .2s;
+    opacity: 100%;
+}
+/* */
