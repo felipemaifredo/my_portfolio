@@ -17,7 +17,6 @@ function executar() {
     Response.text()).then((data) => {
         boxResult.style.display = "block";
         boxResult.innerText = data;
-        referrerPolicy: "unsafe_url" 
     });
 };
 
@@ -55,5 +54,5 @@ function changeENFunc() {
     textCN[0].innerText = 'Type';
     textCN[1].innerText = 'Mathematical Curiosity';
     textCN[2].innerText = 'Curiosity about the number'
-    textCN[3].innerText = 'generate'
+    textCN[3].innerText = 'Generate'
 }
