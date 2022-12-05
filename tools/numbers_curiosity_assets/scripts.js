@@ -26,7 +26,7 @@ const msgOnlyEnglish = document.querySelector('div.msg-sIngles-box');
 function msgdadosingles() {
     msgOnlyEnglish.style.display = "block";
     setTimeout( () => {
-        //msgOnlyEnglish.style.display = "none";
+        msgOnlyEnglish.style.display = "none";
     }, 10000);
 }
 
