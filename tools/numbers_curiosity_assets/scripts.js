@@ -17,6 +17,7 @@ function executar() {
     Response.text()).then((data) => {
         boxResult.style.display = "block";
         boxResult.innerText = data;
+        referrerPolicy: "unsafe_url" 
     });
 };
 
