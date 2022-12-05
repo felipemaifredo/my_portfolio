@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --cor-1 : rgba(0, 0, 0, 0.747);
+    --cor-2 : white;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: linear-gradient(-45deg, #ff3d5a, #eaf27e, #3b8c88, #ffb969) no-repeat;
+    background-size: 1000% 1000%;
+    animation: gradient 10s ease alternate infinite;
+}
+
+@keyframes gradient {
+    from {
+        background-position: 0 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
+}
+
+/* */
+.arrow-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 50px;
+    opacity: 50%;
+    cursor: pointer;
+    transition: all 1s;
+    z-index: 10;
+}
+
+.arrow-icon:hover {
+    transition: all .2s;
+    opacity: 100%;
+}
+/* */
+
+.msg-sIngles-box {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    width: 260px;
+    font-weight: bold;
+    display: none;
+}
+
+.msg-sIngles-box p {
+    background-color: white;
+    padding: 10px;
+}
+
+.div-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 600px;
+    height: 50px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.div-options select, .div-options input {
+    height: 30px;
+}
+
+.div-options input {
+    height: 30px;
+    padding-left: 10px;
+}
+.resultmsg {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: none;
+}
+
+button {
+    padding: 5px 10px;
+}
+

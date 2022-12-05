@@ -66,6 +66,11 @@ function changePTFunc() {
       textsTool[29].innerHTML = `Um dos meus primeiros projetos utilizando APIs e aplicando os dados com ${spanJS}, ${spanHTML} e ${spanCSS}.`;
       textsTool[30].innerHTML = `Ver Projeto`;
       textsTool[31].innerHTML = `Ver Github`;
+    // User Generator
+       textsTool[32].innerText = "Curiosidades de Números";
+       textsTool[33].innerHTML = `Um dos meus primeiros projetos utilizando APIs e aplicando os dados com ${spanJS}, ${spanHTML} e ${spanCSS}.`;
+       textsTool[34].innerHTML = `Ver Projeto`;
+       textsTool[35].innerHTML = `Ver Github`;
     };
 
 function changeENFunc() {
@@ -123,6 +128,11 @@ function changeENFunc() {
         textsTool[29].innerHTML = `One of my first projects using APIs and applying the data with ${spanJS}, ${spanHTML} and ${spanCSS}.`;
         textsTool[30].innerHTML = `See Project`;
         textsTool[31].innerHTML = `See Github`;
+    // User Generator
+        textsTool[32].innerText = "Numbers Curiosity";
+        textsTool[33].innerHTML = `One of my first projects using APIs and applying the data with ${spanJS}, ${spanHTML} and ${spanCSS}.`;
+        textsTool[34].innerHTML = `See Project`;
+        textsTool[35].innerHTML = `See Github`;
 };
 
 function detectIdiom() {

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="numbers_curiosity_assets/style.css">
+    <script src="numbers_curiosity_assets/scripts.js" defer></script>
+    <title>Numbers Curiosity</title>
+</head>
+    <body>
+        <div class="div-options">
+            <label for="selection" text-cn>Tipo</label>
+            <select name="selection" id="selection">
+                <option value="math" text-cn>Curiosidade Matematica</option>
+                <option value="trivia" text-cn>Curiosidade sobre o número</option>
+            </select>
+            <input type="number">
+            <button onclick="executar()" text-cn>executar</button>
+        </div>
+        <p class="resultmsg"></p>
+        <div class="msg-sIngles-box">
+            <p>Infelizmente os dados gerados são somente em inglês :(</p>
+        </div>
+        <a href="/tools"><img src="/assets/imgs/arrow-icon.png" class="arrow-icon"></a>
+    </body>
+</html>
