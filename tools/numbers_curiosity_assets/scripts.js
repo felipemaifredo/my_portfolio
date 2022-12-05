@@ -15,8 +15,8 @@ function executar() {
 
     fetch(`http://numbersapi.com/${nDigitado}/${typeChoiced}`).then((Response) =>
     Response.text()).then((data) => {
-        boxResult.style.display = "block"
-        boxResult.innerText = data
+        boxResult.style.display = "block";
+        boxResult.innerText = data;
     });
 };
 
