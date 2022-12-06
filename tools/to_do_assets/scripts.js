@@ -15,11 +15,11 @@ function addTask() {
             id: gerarID(),
         }
         newTask(task); 
-    }
-}
+    };
+};
 
 function gerarID() {
-    return Math.floor(Math.random() * 3000)
+    return Math.floor(Math.random() * 3000);
 }
 
 function newTask(task) {
@@ -27,6 +27,7 @@ function newTask(task) {
     taskBox.appendChild(divTask);
     inputNameTask.value = '';
     inputTimeTask.value = '';
+    checkLateTask();
 }
 
 function createDivTask(task) {
@@ -72,18 +73,27 @@ function excluir(IdTask) {
         let taksInQ = document.getElementById(''+IdTask+'')
         if (taksInQ) {
             taskBox.removeChild(taksInQ);
-        }
-    }
-}
+        };
+    };
+};
 
 function check(IdTask) {
-    let taksInQ = document.getElementById(''+IdTask+'')
+    let taksInQ = document.getElementById(''+IdTask+'');
     if (taksInQ) {
         taksInQ.classList.toggle('task-finished');
-    }
-}
+    };
+};
 /*----------*/
 
+function getHours() {
+    let date = new Date;
+    let hours = date.getHours();
+    let minutes = date.getMinutes();
+    let timeFull = `${hours}:${minutes}`;
+    return timeFull;
+}
+
+/*----------*/
 const textsTD = document.querySelector("[textTD]");
 var msgIdiom = 'Preencha o nome da Tarefa';
 var msgConfir = 'Tem certeza que deseja excluir a tarefa?'
@@ -107,4 +117,3 @@ function changePTFunc() {
     msgIdiom = 'Fill in the Task name';
     msgConfir = 'Are you sure you want to delete the task?';
 };
-
