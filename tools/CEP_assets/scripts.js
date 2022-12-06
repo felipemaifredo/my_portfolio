@@ -55,7 +55,7 @@ cep.addEventListener('focusout', pesquisarCep);
 
 /*--------*/
 
-const textsCEP = document.querySelector("[texts-CEP]");
+const textsCEP = document.querySelectorAll("[texts-CEP]");
 
 function detectIdiom() {
     if (localStorage.idiom == "br") {
