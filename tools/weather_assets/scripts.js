@@ -67,9 +67,14 @@ function activeWeatherBox() {
 
 /*-------------*/
 
-const textsTD = document.querySelector("[textTD]");
-var msgIdiom = 'Preencha o nome da Tarefa';
-var msgConfir = 'Tem certeza que deseja excluir a tarefa?'
+const msgOnlyEnglish = document.querySelector('div.msg-sIngles-box');
+
+function msgdadosingles() {
+    msgOnlyEnglish.style.display = "block";
+    setTimeout( () => {
+        msgOnlyEnglish.style.display = "none";
+    }, 10000);
+}
 
 function detectIdiom() {
     if (localStorage.idiom == "br") {
@@ -80,13 +85,5 @@ function detectIdiom() {
 } detectIdiom();
 
 function changePTFunc() {
-    textsTD.placeholder = 'Adicionar uma nova tarefa';
-    msgIdiom = 'Preencha o nome da Tarefa';
-    msgConfir = 'Tem certeza que deseja excluir a tarefa?';
+    msgdadosingles();
  };
- 
- function changeENFunc() {
-    textsTD.placeholder = 'Add a new task';
-    msgIdiom = 'Fill in the Task name';
-    msgConfir = 'Are you sure you want to delete the task?';
-};
