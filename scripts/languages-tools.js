@@ -76,6 +76,11 @@ function changePTFunc() {
         textsTool[37].innerHTML = `Um dos meus primeiros projetos utilizando APIs e aplicando os dados com ${spanJS}, ${spanHTML} e ${spanCSS}.`;
         textsTool[38].innerHTML = `Ver Projeto`;
         textsTool[39].innerHTML = `Ver Github`;
+    // Buscador de CEP
+        textsTool[40].innerText = "Verificador de Clima";
+        textsTool[41].innerHTML = `Um dos meus primeiros projetos utilizando APIs e aplicando os dados com ${spanJS}, ${spanHTML} e ${spanCSS}.`;
+        textsTool[42].innerHTML = `Ver Projeto`;
+        textsTool[43].innerHTML = `Ver Github`;
     };
 
 function changeENFunc() {
@@ -143,6 +148,11 @@ function changeENFunc() {
         textsTool[37].innerHTML = `One of my first projects using APIs and applying the data with ${spanJS}, ${spanHTML} and ${spanCSS}.`;
         textsTool[38].innerHTML = `See Project`;
         textsTool[39].innerHTML = `See Github`;
+    // Buscador de CEP
+        textsTool[40].innerText = "Climate Checker";
+        textsTool[41].innerHTML = `One of my first projects using APIs and applying the data with ${spanJS}, ${spanHTML} and ${spanCSS}.`;
+        textsTool[42].innerHTML = `See Project`;
+        textsTool[43].innerHTML = `See Github`;
 };
 
 function detectIdiom() {

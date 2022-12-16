@@ -7,10 +7,7 @@ const estado = document.getElementById('estado');
 const pesquisarCep = async() => {
     let cepValue = document.getElementById('cep').value;
     if (!cepValue) {
-        enderecoR.value = '';
-        bairro.value = '';
-        cidade.value = '';
-        estado.value = '';
+        limparCampos();
         return
     }
     let url = `http://viacep.com.br/ws/${cepValue}/json/`;

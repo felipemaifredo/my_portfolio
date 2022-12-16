@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather_assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="weather_assets/scripts.js" defer></script>
+    <title>Previsão do Tempo</title>
+</head>
+<body>
+    <div class="search-box">
+        <input type="text" id="input-city">
+        <button id="btn-acction"><i class="fa fa-search"></i></button>
+    </div>
+    <div id= "card-weather" class="card-weather">
+        <div>
+            <span class="span-gps"><i class="fa fa-map-marker"></i></span>
+            <h1 id="city-name" class="city-name">Cidade aqui</h1>
+        </div>
+        <div class="weather-box">
+            <h2 id="weather" class="weather">Clima aqui</h2>
+            <img src="https://openweathermap.org/img/wn/01d.png" alt="" id="weather-icon"  class="weather-icon">
+        </div>
+        <h3 id="weather-description" class="weather-description">Descrição aqui</h3>
+        <div class="temps-box">
+            <div>
+                <p id="temp-min">Temp Min</p>
+                <i class="fa fa-thermometer-1"></i>
+            </div>
+            <div>
+                <p>Now:</p>
+                <p id="temp">Temp</p>
+               
+            </div>
+            <div>
+                <p id="temp-max">temp-max</p>
+                <i class="fa fa-thermometer-full"></i>
+            </div>
+        </div>
+    </div>
+    <a href="/tools"><img src="/assets/imgs/arrow-icon.png" class="arrow-icon"></a>
+    <div class="msg-sIngles-box">
+        <p>Infelizmente os dados gerados são somente em inglês :(</p>
+    </div>
+</body>
+</html>
