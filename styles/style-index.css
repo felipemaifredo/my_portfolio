@@ -605,8 +605,9 @@ body::-webkit-scrollbar-thumb {
 
 .box-link-sec4 {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
     height: 20%;
 }
     .box-link-sec4 > div {
@@ -619,9 +620,13 @@ body::-webkit-scrollbar-thumb {
         border-radius: 20px;
     }
         .box-link-sec4 > div > a{
-            padding: 15px 10px;
+            padding: 10px 5px;
             color: var(--color-1);
-        }       
+        }
+
+        .box-link-sec4 > div > i{
+            color: var(--color-1);
+        }
             .box-link-sec4  > a:hover {
                 transition: var(--time-2);
                 background-color: var(--color-7);
