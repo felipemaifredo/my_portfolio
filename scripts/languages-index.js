@@ -128,7 +128,7 @@ function changeENFunc() {
         textsSec3[23].innerHTML = "Comming Soon";
    // FIM SEC 3
    // SEC 4
-        textsSec4[0].innerText = "Tolls";
+        textsSec4[0].innerText = "Tools";
         textsSec4[1].innerText = "Tools created to train and develop my skills";
         textsSec4[2].innerHTML = 'Access';
         textsSec4[3].innerText = "Works";
